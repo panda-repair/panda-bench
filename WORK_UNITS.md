@@ -39,3 +39,11 @@ Verification: `python3 -m unittest discover -s tests -p test_runner.py -v` passe
 Runtime boundary: the adapter is exercised with documented-shape synthetic responses; deployment remains untested.
 
 Rollback: revert the allowlist/provenance additions and their single regression test without changing archived files, charge accounting or request scheduling.
+
+## Budget scheduling test correction
+
+Behavior: the fake-transport test accepts the two valid completion schedules while proving every durable admission happened below the observed threshold, all charges were counted, maximum concurrency stayed at two and resume never repeated a completed key.
+
+Verification: all runner tests passed after the correction. A source audit also confirmed all 9,542 complete-token call costs agree with the manifest rates within the archived six-decimal USD rounding; DATA_SOURCES.md now states that precision.
+
+Runtime boundary: synthetic transport and local ledger only; no provider calls. Rollback removes only the test instrumentation and precision note, leaving production behavior unchanged.

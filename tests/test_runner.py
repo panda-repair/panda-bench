@@ -6,8 +6,9 @@ import threading
 import time
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 from panda_bench.runner import adapt_response, base_url, cents, execute, fingerprint, initialize, request_body, request_key
-from panda_bench.storage import digest, read_json
+from panda_bench.storage import digest, read_json, write_json as persist_json
 
 
 def response(amount="7", status="completed", text="Synthetic answer", **extra):
@@ -69,6 +70,15 @@ class RunTests(unittest.TestCase):
         source, prompts = fixture()
         models = ["panel:panda", "gemini-4-argon"]
         lock = threading.Lock(); calls = []; active = 0; high = 0
+        scheduled = set(); admissions = []; current_limit = 10
+        def record_persistence(path, value):
+            if Path(path).name == "run-state.json":
+                settled = sum(row["charge_cents"] or 0 for row in value["requests"])
+                for row in value["requests"]:
+                    if row["state"] == "submitting" and row["key"] not in scheduled:
+                        scheduled.add(row["key"])
+                        admissions.append((settled, current_limit))
+            persist_json(path, value)
         def fake(body, key):
             nonlocal active, high
             with lock:
@@ -76,18 +86,26 @@ class RunTests(unittest.TestCase):
             time.sleep(.03)
             with lock: active -= 1
             return adapt_response(response())
-        with tempfile.TemporaryDirectory() as temp, contextlib.redirect_stdout(io.StringIO()):
+        with tempfile.TemporaryDirectory() as temp, contextlib.redirect_stdout(io.StringIO()), patch("panda_bench.runner.write_json", side_effect=record_persistence):
             output = Path(temp) / "run"
             manifest, ledger = initialize(source, models, "https://example.test/v1", output, prompts)
             self.assertEqual(execute(output, manifest, ledger, prompts, .10, fake), 2)
             self.assertEqual(manifest["run_state"], "budget_stopped")
-            self.assertEqual(len(calls), 2)
-            self.assertEqual(sum(r["charge_cents"] or 0 for r in ledger["requests"]), 14)
+            # One completion may open a slot while only 7 cents are settled.
+            # Both 2-call and 3-call schedules satisfy the threshold contract.
+            self.assertIn(len(calls), (2, 3))
+            self.assertEqual(sum(r["charge_cents"] or 0 for r in ledger["requests"]), 7 * len(calls))
+            self.assertEqual(sum(r["state"] == "pending" for r in ledger["requests"]), 4 - len(calls))
+            self.assertTrue(all(settled < limit for settled, limit in admissions))
+            current_limit = 50
             manifest, ledger = read_json(output / "manifest.json"), read_json(output / "run-state.json")
             self.assertEqual(execute(output, manifest, ledger, prompts, .50, fake), 0)
             self.assertEqual(len(calls), 4)
             self.assertEqual(len(set(calls)), 4)
             self.assertEqual(high, 2)
+            self.assertEqual(sum(r["charge_cents"] for r in ledger["requests"]), 28)
+            self.assertTrue(all(settled < limit for settled, limit in admissions))
+            self.assertEqual(len(admissions), 4)
             self.assertEqual(execute(output, manifest, ledger, prompts, .50, fake), 0)
             self.assertEqual(len(calls), 4)
             self.assertEqual(len(manifest["judge"]["bundle_before_shuffle"]["synthetic-1"]), 2)
