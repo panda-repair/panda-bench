@@ -41,6 +41,15 @@ assert not blocked.intersection({m.split('.')[0] for m in sys.modules})
         self.assertEqual(result.returncode, 0, result.stderr + result.stdout)
         self.assertIn("All displayed arithmetic matches.", result.stdout)
 
+    def test_regrade_and_run_plans_need_no_keys(self):
+        result = self.invoke(["regrade", "stage-4", "--max-cost-usd", "15", "--plan"])
+        self.assertEqual(result.returncode, 0, result.stderr)
+        plan = json.loads(result.stdout)
+        self.assertEqual(plan["request_count"], 150)
+        self.assertFalse(plan["within_budget"])
+        result = self.invoke(["run", "stage-4", "--models", "panel:panda,panel:panda-quality,gemini-4-argon", "--max-cost-usd", "30", "--plan"])
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(json.loads(result.stdout)["request_count"], 450)
 
     def test_grade_plan_uses_new_bundle_and_refuses_ten_dollars(self):
         manifest = read_json(ROOT / "releases" / "stage-4" / "manifest.json")
@@ -60,6 +69,20 @@ assert not blocked.intersection({m.split('.')[0] for m in sys.modules})
             self.assertEqual(result.returncode, 2, result.stderr)
             self.assertIn("Conservative judge exposure exceeds", result.stdout)
 
+    def test_plans_do_not_initialize_sdks_or_network(self):
+        code = """import builtins, sys
+original = builtins.__import__
+def safe_import(name, *args, **kwargs):
+    if name.split('.')[0] in {'anthropic', 'openai', 'requests', 'httpx', 'socket'}: raise AssertionError(name)
+    return original(name, *args, **kwargs)
+builtins.__import__ = safe_import
+from panda_bench.cli import main
+assert main(['regrade','stage-4','--max-cost-usd','15','--plan']) == 0
+assert main(['run','stage-4','--models','panel:panda,panel:panda-quality,gemini-4-argon','--max-cost-usd','30','--plan']) == 0
+"""
+        env = dict(os.environ); env.pop("PANDA_API_KEY", None); env.pop("ANTHROPIC_API_KEY", None)
+        result = subprocess.run([sys.executable, "-c", code], cwd=ROOT, env=env, text=True, capture_output=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
 
 
 if __name__ == "__main__": unittest.main()

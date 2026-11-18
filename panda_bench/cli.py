@@ -16,12 +16,17 @@ def main(argv=None):
     sub = parser.add_subparsers(dest="command", required=True)
     cmd = sub.add_parser("check", help="Recompute archived arithmetic offline")
     cmd.add_argument("source")
-    for name in ("regrade", "grade"):
+    for name in ("regrade", "grade", "run"):
         cmd = sub.add_parser(name)
         cmd.add_argument("source")
         cmd.add_argument("--max-cost-usd", type=positive, required=True)
         cmd.add_argument("--plan", action="store_true")
-        cmd.add_argument("--judge", default="claude-opus-5-5")
+        if name == "run":
+            cmd.add_argument("--models", required=True)
+            cmd.add_argument("--base-url", default="https://app.panda.repair/v1")
+            cmd.add_argument("--resume")
+        else:
+            cmd.add_argument("--judge", default="claude-opus-5-5")
     cmd = sub.add_parser("fetch", help="Fetch pinned public WildBench files; no model calls")
     args = parser.parse_args(argv)
     try:
@@ -32,7 +37,10 @@ def main(argv=None):
             from .datasets import fetch
             fetch()
             return 0
-        from .judging import command
+        if args.command == "run":
+            from .runner import command
+        else:
+            from .judging import command
         return command(args)
     except (ValueError, KeyError, FileNotFoundError) as exc:
         # Messages originate in local validation; never interpolate provider exceptions.
