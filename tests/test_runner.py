@@ -47,6 +47,18 @@ class RunTests(unittest.TestCase):
         self.assertEqual(adapt_response({"error": "secret"}, 429)["state"], "blocked")
         self.assertEqual(adapt_response(response(text=""))["state"], "blocked")
 
+    def test_built_in_panel_configuration_provenance(self):
+        for name, combiner in (("panda", "deepseek-v4.1-flash"), ("panda-quality", "glm-5.3")):
+            obj = response(panel={"name": name, "revision": "0123456789abcdef", "synthesizer_model": combiner, "private": "never-persist"},
+                           agents=[{"index": 1, "model": "deepseek-v4.1-flash", "status": "completed"},
+                                   {"index": 2, "model": "gemini-3.8-flash", "status": "completed"}],
+                           synthesis={"model": combiner, "status": "completed", "included_agents": [1, 2], "request_id": "never-persist"})
+            actual = adapt_response(obj)["panda"]
+            self.assertEqual([a["model"] for a in actual["agents"]], ["deepseek-v4.1-flash", "gemini-3.8-flash"])
+            self.assertEqual(actual["panel"], {"name": name, "revision": "0123456789abcdef", "synthesizer_model": combiner})
+            self.assertEqual(actual["synthesis"]["included_agents"], [1, 2])
+            self.assertNotIn("never-persist", json.dumps(actual))
+
     def test_key_binds_model_content_and_run(self):
         body = request_body("one", {"prompt": "synthetic"})
         keys = {request_key("run-a", "p", "one", body), request_key("run-a", "p", "two", body), request_key("run-b", "p", "one", body), request_key("run-a", "p", "one", {**body, "max_completion_tokens": 1})}

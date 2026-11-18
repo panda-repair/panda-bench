@@ -29,3 +29,13 @@ Verification: `python3 -m unittest discover -s tests -v` passed 22 tests in 4.41
 Runtime boundary: fake transports covered parallel scheduling, budget overshoot, safe resume, missing charges, partial answers, charged failures, replay responses, changed content and secret-bearing exceptions. No Panda or model-provider call was made. Current API deployment and billing remain unverified.
 
 Rollback: remove runner.py, run CLI dispatch and run/plan tests with their docs. Keep offline checks and archived regrading. Ignored local run folders hold all run state; no remote state was created during implementation.
+
+## Panel provenance correction
+
+Behavior: retain the documented current built-in member aliases, public 16-hex panel revision, synthesizer selector and included-agent indexes through the response whitelist.
+
+Verification: `python3 -m unittest discover -s tests -p test_runner.py -v` passed 8 tests, including both built-in Panel configurations and exclusion of arbitrary response fields. No provider call was made.
+
+Runtime boundary: the adapter is exercised with documented-shape synthetic responses; deployment remains untested.
+
+Rollback: revert the allowlist/provenance additions and their single regression test without changing archived files, charge accounting or request scheduling.

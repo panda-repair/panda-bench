@@ -13,7 +13,7 @@ from decimal import Decimal
 from .storage import ROOT, bundle_path, digest, read_json, update_latest, verify_files, write_json, write_rows
 
 DEFAULT_MODELS = ("panel:panda", "panel:panda-quality", "gemini-4-argon")
-PUBLIC_AGENT_MODELS = frozenset((*DEFAULT_MODELS, "deepseek-v4-pro", "gemini-4-flash", "glm-5.3", "glm-5.3-flash", "@cf/zai-org/glm-5.3-flash"))
+PUBLIC_AGENT_MODELS = frozenset((*DEFAULT_MODELS, "deepseek-v4-pro", "deepseek-v4.1-flash", "gemini-3.8-flash", "gemini-4-flash", "glm-5.3", "glm-5.3-flash", "@cf/zai-org/glm-5.3-flash"))
 
 
 def base_url(value):
@@ -89,6 +89,9 @@ def safe_agent(value):
         out["charged"] = value["charged"]
     if isinstance(value.get("cost_microdollars"), int) and not isinstance(value["cost_microdollars"], bool) and value["cost_microdollars"] >= 0:
         out["cost_microdollars"] = value["cost_microdollars"]
+    if isinstance(value.get("included_agents"), list):
+        out["included_agents"] = [index for index in value["included_agents"]
+                                  if isinstance(index, int) and not isinstance(index, bool) and 1 <= index <= 3]
     out["usage"] = safe_usage(value.get("usage"))
     # No service IDs, arbitrary error messages, headers, or internal output copies.
     return out
@@ -108,6 +111,16 @@ def adapt_response(body, http_status=200):
         return out
     out["panda"] = {"status": panda["status"], "agents": [safe_agent(a) for a in panda.get("agents", [])] if isinstance(panda.get("agents"), list) else [],
                     "charge": {"schema_version": "panda.usd-amount.v1", "currency": "USD", "minor_units": str(out["charge_cents"])}}
+    panel = panda.get("panel")
+    if isinstance(panel, dict):
+        out["panda"]["panel"] = {}
+        if panel.get("name") in ("panda", "panda-quality", "panel:panda", "panel:panda-quality"):
+            out["panda"]["panel"]["name"] = panel["name"]
+        revision = panel.get("revision")
+        if isinstance(revision, str) and re.fullmatch(r"[0-9a-f]{16}", revision):
+            out["panda"]["panel"]["revision"] = revision
+        if panel.get("synthesizer_model") in PUBLIC_AGENT_MODELS:
+            out["panda"]["panel"]["synthesizer_model"] = panel["synthesizer_model"]
     if isinstance(panda.get("usage_complete"), bool):
         out["panda"]["usage_complete"] = panda["usage_complete"]
     if isinstance(panda.get("synthesis"), dict):
