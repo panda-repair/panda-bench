@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+"""Direct entry point: no package-metadata/network imports on offline checks."""
+from panda_bench.cli import main
+raise SystemExit(main())

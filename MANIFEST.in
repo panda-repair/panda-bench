@@ -1,0 +1,4 @@
+include README.md DATA_SOURCES.md LICENSE WORK_UNITS.md
+recursive-include releases *.json *.jsonl
+recursive-include tests *.py
+include bin/panda-bench

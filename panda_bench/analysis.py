@@ -15,6 +15,8 @@ def resolved_grade(index, option, prompt, trail=()):
     if row["status"] != "ok":
         raise ValueError("Unresolved generation status")
     value = row.get("grade")
+    if value is None:
+        return None
     if isinstance(value, bool) or not isinstance(value, int) or not 1 <= value <= 10:
         raise ValueError("Missing or invalid judge grade")
     return value
@@ -38,15 +40,21 @@ def calculate(manifest, grades, usage):
     baseline = manifest["baseline"]
     unit = 1 if manifest["stage"] == "stage-2" else 10
     scale = 10 / unit
-    base = [unit * resolved_grade(index, baseline, pid) for pid in ids]
+    base = {pid: resolved_grade(index, baseline, pid) for pid in ids}
     base_cost = statistics.mean(finite_nonnegative(costs[(baseline, pid)]["cost_usd"], "cost") for pid in ids)
     if base_cost <= 0:
         raise ValueError("Baseline cost must be positive")
     output = []
     for option in manifest["options"]:
         name = option["id"]
-        values = [unit * resolved_grade(index, name, pid) for pid in ids]
-        diff, low, high = paired(values, base, manifest["bootstrap"])
+        raw = [resolved_grade(index, name, pid) for pid in ids]
+        if any(value is None for value in raw):
+            print("Missing judge grades; option omitted:", name)
+            continue
+        values = [unit * value for value in raw]
+        paired_ids = [pid for pid in ids if base[pid] is not None]
+        diff, low, high = paired([unit * resolved_grade(index, name, pid) for pid in paired_ids],
+                                 [unit * base[pid] for pid in paired_ids], manifest["bootstrap"])
         cost = statistics.mean(finite_nonnegative(costs[(name, pid)]["cost_usd"], "cost") for pid in ids)
         waits = sorted(finite_nonnegative(costs[(name, pid)]["wall_s"], "wait") for pid in ids)
         median = waits[len(waits) // 2]
@@ -57,7 +65,7 @@ def calculate(manifest, grades, usage):
         output.append({"id": option.get("display_id", name), "score": round(statistics.mean(values) * scale, decimals),
                        "vs_argon": round(diff * scale, decimals), "vs_argon_low": round(low * scale, decimals),
                        "vs_argon_high": round(high * scale, decimals), "cost_1k": round(cost * 1000, 2),
-                       "cost_pct": round(100 * cost / base_cost), "wait_p50_s": round(median), "prompts": len(ids)})
+                       "cost_pct": round(100 * cost / base_cost), "wait_p50_s": round(median), "prompts": len(paired_ids)})
     return output
 
 

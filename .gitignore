@@ -8,3 +8,7 @@ data/
 runs/
 .pip-cache/
 .DS_Store
+
+.env
+.env.*
+.test-tmp/

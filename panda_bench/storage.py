@@ -49,7 +49,10 @@ def write_json(path, value):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     temp = path.with_suffix(path.suffix + ".tmp")
-    temp.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    with temp.open("w", encoding="utf-8") as handle:
+        handle.write(json.dumps(value, ensure_ascii=False, indent=2) + "\n")
+        handle.flush()
+        os.fsync(handle.fileno())
     os.replace(temp, path)
 
 

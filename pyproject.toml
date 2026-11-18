@@ -10,8 +10,6 @@ requires-python = ">=3.9"
 license = {text = "MIT"}
 dependencies = ["anthropic>=0.75,<1", "openai>=1.109,<3", "pyarrow>=17,<24"]
 
-[project.scripts]
-panda-bench = "panda_bench.cli:main"
-
 [tool.setuptools]
 packages = ["panda_bench"]
+script-files = ["bin/panda-bench"]
