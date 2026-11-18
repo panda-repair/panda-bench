@@ -13,13 +13,15 @@ pip install -e .
 panda-bench check stage-4
 ```
 
-This repository is prepared locally; the clone URL is the intended publication location, not evidence that it has been published. Use the source checkout and editable install. Python 3.9 or newer is supported; the verified environment used Python 3.9.6 and pip 21.2.4.
+This repository is prepared locally; the clone URL is the intended publication location, not evidence that it has been published. Use the source checkout and editable install. Python 3.9 or newer is required; the verified environment used Python 3.9.6 and pip 21.2.4.
 
 | Tier | What it proves | Needs | Cost and time |
 | --- | --- | --- | --- |
 | **Check our arithmetic** | Archived grades, failure/fallback rules, paired intervals, recorded costs and waits reproduce every displayed value | Release files; no keys, dataset fetch or model calls | Free; about 2–3 seconds per stage in the verified environment |
 | **Grade our answers yourself** | A new judge sample over the complete original candidate bundle | Anthropic key and fetched WildBench prompts/checklists | Original stage 4 judging used about $10.07 at recorded batch rates; the conservative preflight is $47.227696. Batch completion time was not verified; allow up to 24 hours per provider guidance |
 | **Run the Panels again** | New answers through the current Panda product, followed by a new three-candidate judge pass | Panda key, Anthropic key for grading, dataset cache | Generation uses actual customer charges; no current quote is available. At an assumed 30–60 seconds per request, 450 requests at concurrency 2 take roughly 2–4 hours; this has not been measured live. Judge cost is estimated separately |
+
+Measured installed-CLI wall times were **2.532 s (stage 2), 1.790 s (stage 3), and 1.916 s (stage 4)** on the verified environment.
 
 `check` imports no network or provider modules, including through the installed console script. It recomputes 4,000 paired bootstrap resamples with seed 11 and sorted indexes 100 and 3899. It exits nonzero on any difference from the expected displayed precision or an artifact checksum mismatch. A new run has no historical expected file; its check prints new results.
 
@@ -82,7 +84,7 @@ panda-bench run stage-4 --models panel:panda,panel:panda-quality,gemini-4-argon 
 
 The ledger is persisted before submission. Its idempotency key binds a locally generated run ID, public prompt ID, model and canonical request body. Resume skips only durably completed pairs and requires identical dataset, models, endpoint and request content. An interrupted in-flight request, ambiguous timeout or missing-answer replay blocks automatic resume. A settled 409 replay contributes its charge once but cannot recover answer text; a running replay has unknown cost. Reconcile these outcomes with the service rather than deleting state or issuing fresh keys. Partial runs cannot be graded.
 
-Successful outputs include answer text, requested model, Panda status, a strict subset of agent/synthesis metadata, usage and the actual charge. Unrecognized agent model names and arbitrary server fields are omitted. Credentials, service request/run IDs, headers and raw error messages are not persisted. Local run state, answers and fetched prompts remain ignored by Git.
+Successful outputs include answer text, requested model, Panda status, public built-in Panel revision/synthesizer, a strict subset of agent/synthesis metadata, usage and the actual charge. Unrecognized agent model names and arbitrary server fields are omitted. Credentials, service request/run IDs, headers and raw error messages are not persisted. Local run state, answers and fetched prompts remain ignored by Git.
 
 This is a new experiment: current Panda can return a surviving draft when synthesis fails, and this kit grades that returned partial answer. Historical releases preserve their original fallback/failure policy instead. New runs do not regenerate the historical ten-arm experiment or reuse its cached member drafts. The adapter follows the available current Panda contract; deployment, provider behavior and billing were not live-tested.
 
