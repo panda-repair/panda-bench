@@ -100,8 +100,11 @@ def score_benchmark(run_dir: Path, name: str, grades_out: Optional[Path] = None)
             text = row.get("text")
             # Spend and timing count every final answer row, graded or not.
             cost_nanos += row.get("list_cost_nanos", 0) or 0
-            retail += retail_cents(row.get("list_cost_nanos", 0) or 0, text is not None)
-            walls.append(service_seconds(row))
+            # A live row carries what Panda's API actually charged; a replay row, its list cost.
+            charged = row.get("charge_cents")
+            retail += int(charged) if charged is not None else retail_cents(row.get("list_cost_nanos", 0) or 0, text is not None)
+            # A live row has no per-call record, only the request's wall time through the API.
+            walls.append(service_seconds(row) if row.get("calls") else float(row.get("wall_seconds") or 0.0))
             statuses[_status(row)] += 1
             calls = [c for c in row.get("calls", []) if c.get("role") != "router_embedding"]
             first_trouble += any(c.get("attempts") and c["attempts"][0] != "ok" for c in calls)

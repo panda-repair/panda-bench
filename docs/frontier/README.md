@@ -217,6 +217,25 @@ python -m panda_bench.frontier check-release releases/frontier-2026-11
 
 The release has no answer text, so regrading needs answers you generate. The harness can generate them through Panda's public API (`python -m panda_bench.frontier live`, with your own Panda key) and grade them with the same judge (`judge` and `score`, with an Anthropic key). The replay backend needs Panda's private product code, so outside readers cannot run it.
 
+### Run GPQA Diamond yourself
+
+GPQA Diamond needs no judge, since a rule grades each answer. So you can rerun it end to end with only a Panda API key:
+
+```sh
+git clone https://github.com/panda-repair/panda-bench
+cd panda-bench
+python3 -m venv .venv && . .venv/bin/activate
+pip install -e .
+export PANDA_API_KEY=...   # a Panda API key that allows the model you test
+python -m panda_bench.frontier live --run runs/my-gpqa --benchmarks gpqa-diamond --setups auto:quality --n 198 --max-charge-usd 7
+python -m panda_bench.frontier score --run runs/my-gpqa --benchmarks gpqa-diamond
+```
+
+- **Data.** The first command downloads the pinned GPQA zip from the authors' GitHub repository and checks its SHA-256 before use. The zip is password-protected to keep the questions away from web crawlers; the authors publish the password. The cache stays under the ignored `data/`. The authors ask that examples not be posted online.
+- **What it sends.** All 198 questions, two at a time (Panda's per-workspace limit), with an idempotency key on each request. A rerun skips the questions already answered. The `--max-charge-usd` cap stops it from sending more once your recorded charges reach that amount.
+- **What it costs.** At our run's prices, `auto:quality` answers cost about 2.6¢ each, so all 198 come to about $5 and take roughly 40 minutes. `--setups` also takes `gemini-4-argon`, `gemini-3.8-flash`, `deepseek-v4.1-flash`, `glm-5.3`, `panel:panda`, `panel:panda-quality` and `auto`.
+- **The result.** `score` prints the accuracy, the number of questions answered, and your actual charge per answer, and writes `results.json` and per-question grades to the run folder. Expect a few points' spread between runs: one run on 198 questions has a standard error of about 1.7 points. Ours scored 93.9.
+
 ## The release
 
 `releases/frontier-2026-11/` holds:
