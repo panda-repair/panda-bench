@@ -1,0 +1,455 @@
+{
+ "auto": {
+  "score": 44.60061998401052,
+  "raw_score": 48.49814718401052,
+  "mean_answer_length": 3325.689523809524,
+  "n": 525,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "by_use_case": {
+   "consult": 45.04575057660843,
+   "research": 66.52267953411099,
+   "writing": 35.576734112757876
+  },
+  "by_type": {
+   "good_faith": 64.2215972197383,
+   "red_teaming": 21.002690053470836
+  },
+  "by_difficulty": {
+   "difficult": 24.12805591143339,
+   "typical": 74.10578215402322
+  },
+  "complete": true,
+  "items": 525,
+  "graded": 525,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 0.9322,
+  "list_usd_per_item": 0.001776,
+  "retail_usd_total": 5.36,
+  "retail_usd_per_item": 0.0102,
+  "service_seconds_median": 9.6,
+  "service_seconds_p90": 19.82,
+  "service_samples": 525,
+  "statuses": {
+   "completed": 525
+  },
+  "first_attempt_trouble": 4,
+  "routes": {
+   "glm-5.3": 97,
+   "glm-5.3-flash": 137,
+   "deepseek-v4.1-flash": 291
+  }
+ },
+ "auto:quality": {
+  "score": 55.960977631298015,
+  "raw_score": 62.89429843129801,
+  "mean_answer_length": 4367.290630975143,
+  "n": 525,
+  "failed_answers": 2,
+  "failed_judge_calls": 0,
+  "by_use_case": {
+   "consult": 64.48254751073702,
+   "research": 68.77855845490612,
+   "writing": 54.16322092272059
+  },
+  "by_type": {
+   "good_faith": 72.61472794654625,
+   "red_teaming": 45.89626985489534
+  },
+  "by_difficulty": {
+   "difficult": 50.33898714604093,
+   "typical": 76.08718411775956
+  },
+  "complete": true,
+  "items": 525,
+  "graded": 525,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 12.0439,
+  "list_usd_per_item": 0.022941,
+  "retail_usd_total": 18.17,
+  "retail_usd_per_item": 0.0346,
+  "service_seconds_median": 32.48,
+  "service_seconds_p90": 108.76,
+  "service_samples": 525,
+  "statuses": {
+   "completed": 521,
+   "partial": 2,
+   "failed": 2
+  },
+  "first_attempt_trouble": 11,
+  "routes": {
+   "panel:panda-quality": 181,
+   "gemini-4-argon": 344
+  },
+  "panel_modes": {
+   "synthesis": 179,
+   "single_answer": 2
+  }
+ },
+ "control:deepseek-self-merge": {
+  "score": 45.1140531580237,
+  "raw_score": 50.759071558023706,
+  "mean_answer_length": 3920.074285714286,
+  "n": 525,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "by_use_case": {
+   "consult": 49.753826116950975,
+   "research": 67.5744877646223,
+   "writing": 35.02225283776433
+  },
+  "by_type": {
+   "good_faith": 65.8748710468343,
+   "red_teaming": 24.32620753047007
+  },
+  "by_difficulty": {
+   "difficult": 27.001047964719966,
+   "typical": 75.72355728692489
+  },
+  "complete": true,
+  "items": 525,
+  "graded": 525,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 2.3692,
+  "list_usd_per_item": 0.004513,
+  "retail_usd_total": 5.52,
+  "retail_usd_per_item": 0.0105,
+  "service_seconds_median": 15.21,
+  "service_seconds_p90": 28.24,
+  "service_samples": 525,
+  "statuses": {
+   "completed": 525
+  },
+  "first_attempt_trouble": 8,
+  "panel_modes": {
+   "synthesis": 525
+  }
+ },
+ "deepseek-v4.1-flash": {
+  "score": 38.26447916251825,
+  "raw_score": 42.72791996251824,
+  "mean_answer_length": 3518.177142857143,
+  "n": 525,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "by_use_case": {
+   "consult": 43.905509623092335,
+   "research": 62.85181731199808,
+   "writing": 19.938313833863177
+  },
+  "by_type": {
+   "good_faith": 61.22772442103921,
+   "red_teaming": 10.377476563848097
+  },
+  "by_difficulty": {
+   "difficult": 15.88304535377537,
+   "typical": 70.93601085998635
+  },
+  "complete": true,
+  "items": 525,
+  "graded": 525,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 0.6528,
+  "list_usd_per_item": 0.001244,
+  "retail_usd_total": 5.26,
+  "retail_usd_per_item": 0.01,
+  "service_seconds_median": 7.76,
+  "service_seconds_p90": 14.68,
+  "service_samples": 525,
+  "statuses": {
+   "completed": 525
+  },
+  "first_attempt_trouble": 5
+ },
+ "gemini-3.8-flash": {
+  "score": 48.973348078057896,
+  "raw_score": 54.61094087805789,
+  "mean_answer_length": 3932.270633397313,
+  "n": 525,
+  "failed_answers": 4,
+  "failed_judge_calls": 0,
+  "by_use_case": {
+   "consult": 52.65391752608134,
+   "research": 64.99315859343776,
+   "writing": 47.11566979992855
+  },
+  "by_type": {
+   "good_faith": 65.4726748386037,
+   "red_teaming": 35.617123376370486
+  },
+  "by_difficulty": {
+   "difficult": 38.17671833291238,
+   "typical": 71.87971378682408
+  },
+  "complete": true,
+  "items": 525,
+  "graded": 525,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 4.3901,
+  "list_usd_per_item": 0.008362,
+  "retail_usd_total": 7.01,
+  "retail_usd_per_item": 0.0134,
+  "service_seconds_median": 11.06,
+  "service_seconds_p90": 35.91,
+  "service_samples": 525,
+  "statuses": {
+   "completed": 521,
+   "failed": 4
+  },
+  "first_attempt_trouble": 3
+ },
+ "gemini-4-argon": {
+  "score": 53.64652999777284,
+  "raw_score": 61.43534039777284,
+  "mean_answer_length": 4664.4808429118775,
+  "n": 525,
+  "failed_answers": 3,
+  "failed_judge_calls": 0,
+  "by_use_case": {
+   "consult": 63.91054458676041,
+   "research": 67.74063317895953,
+   "writing": 50.794310627100224
+  },
+  "by_type": {
+   "good_faith": 72.69844137069205,
+   "red_teaming": 41.73965597392456
+  },
+  "by_difficulty": {
+   "difficult": 47.93432384590707,
+   "typical": 75.62195544641304
+  },
+  "complete": true,
+  "items": 525,
+  "graded": 525,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 13.2594,
+  "list_usd_per_item": 0.025256,
+  "retail_usd_total": 19.78,
+  "retail_usd_per_item": 0.0377,
+  "service_seconds_median": 30.81,
+  "service_seconds_p90": 135.06,
+  "service_samples": 525,
+  "statuses": {
+   "completed": 522,
+   "failed": 3
+  },
+  "first_attempt_trouble": 29
+ },
+ "glm-5.3": {
+  "score": 47.838889286339075,
+  "raw_score": 50.538974086339074,
+  "mean_answer_length": 2918.3961904761904,
+  "n": 525,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "by_use_case": {
+   "consult": 49.71330169067385,
+   "research": 61.03308673989636,
+   "writing": 41.04759468707199
+  },
+  "by_type": {
+   "good_faith": 63.67409268851893,
+   "red_teaming": 27.56970909613975
+  },
+  "by_difficulty": {
+   "difficult": 31.264838966337305,
+   "typical": 70.79187388040343
+  },
+  "complete": true,
+  "items": 525,
+  "graded": 525,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 2.4692,
+  "list_usd_per_item": 0.004703,
+  "retail_usd_total": 5.78,
+  "retail_usd_per_item": 0.011,
+  "service_seconds_median": 6.92,
+  "service_seconds_p90": 13.77,
+  "service_samples": 525,
+  "statuses": {
+   "completed": 525
+  },
+  "first_attempt_trouble": 0
+ },
+ "glm-5.3-flash": {
+  "score": 44.21761561344849,
+  "raw_score": 46.487553213448486,
+  "mean_answer_length": 2773.56106870229,
+  "n": 525,
+  "failed_answers": 1,
+  "failed_judge_calls": 0,
+  "by_use_case": {
+   "consult": 43.30206145829898,
+   "research": 58.532860000894935,
+   "writing": 39.31231347021365
+  },
+  "by_type": {
+   "good_faith": 58.74014319365203,
+   "red_teaming": 25.061558169532333
+  },
+  "by_difficulty": {
+   "difficult": 26.30406207472109,
+   "typical": 67.69598726156437
+  },
+  "complete": true,
+  "items": 525,
+  "graded": 525,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 0.2622,
+  "list_usd_per_item": 0.000499,
+  "retail_usd_total": 5.24,
+  "retail_usd_per_item": 0.01,
+  "service_seconds_median": 10.44,
+  "service_seconds_p90": 22.51,
+  "service_samples": 525,
+  "statuses": {
+   "completed": 524,
+   "failed": 1
+  },
+  "first_attempt_trouble": 5
+ },
+ "panel:panda": {
+  "score": 55.71349064405561,
+  "raw_score": 61.1956890440556,
+  "mean_answer_length": 3864.693333333333,
+  "n": 525,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "by_use_case": {
+   "consult": 63.80954407049154,
+   "research": 68.68761164115152,
+   "writing": 49.09581293129514
+  },
+  "by_type": {
+   "good_faith": 71.74038925875217,
+   "red_teaming": 42.75626563196842
+  },
+  "by_difficulty": {
+   "difficult": 45.10268849923496,
+   "typical": 78.10591227279292
+  },
+  "complete": true,
+  "items": 525,
+  "graded": 525,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 6.1375,
+  "list_usd_per_item": 0.01169,
+  "retail_usd_total": 9.47,
+  "retail_usd_per_item": 0.018,
+  "service_seconds_median": 18.72,
+  "service_seconds_p90": 48.74,
+  "service_samples": 525,
+  "statuses": {
+   "completed": 522,
+   "partial": 3
+  },
+  "first_attempt_trouble": 8,
+  "panel_modes": {
+   "synthesis": 522,
+   "single_answer": 3
+  }
+ },
+ "panel:panda-quality": {
+  "score": 54.645033573396496,
+  "raw_score": 59.47432797339649,
+  "mean_answer_length": 3642.617142857143,
+  "n": 525,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "by_use_case": {
+   "consult": 60.10003960815151,
+   "research": 70.97491295423157,
+   "writing": 46.52887770589692
+  },
+  "by_type": {
+   "good_faith": 71.62431910377688,
+   "red_teaming": 38.227746624982615
+  },
+  "by_difficulty": {
+   "difficult": 41.52164213465881,
+   "typical": 78.33867363988257
+  },
+  "complete": true,
+  "items": 525,
+  "graded": 525,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 9.5194,
+  "list_usd_per_item": 0.018132,
+  "retail_usd_total": 14.4,
+  "retail_usd_per_item": 0.0274,
+  "service_seconds_median": 20.17,
+  "service_seconds_p90": 51.84,
+  "service_samples": 525,
+  "statuses": {
+   "completed": 521,
+   "partial": 4
+  },
+  "first_attempt_trouble": 11,
+  "panel_modes": {
+   "synthesis": 521,
+   "single_answer": 4
+  }
+ },
+ "panel:trio-glm": {
+  "score": 55.06533250095327,
+  "raw_score": 60.08765330095327,
+  "mean_answer_length": 3708.272380952381,
+  "n": 525,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "by_use_case": {
+   "consult": 58.31568715767991,
+   "research": 69.97164436438398,
+   "writing": 52.8005921987575
+  },
+  "by_type": {
+   "good_faith": 71.37390353782193,
+   "red_teaming": 40.35148796527721
+  },
+  "by_difficulty": {
+   "difficult": 42.54966428090716,
+   "typical": 78.51624332592361
+  },
+  "complete": true,
+  "items": 525,
+  "graded": 525,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 10.4748,
+  "list_usd_per_item": 0.019952,
+  "retail_usd_total": 15.8,
+  "retail_usd_per_item": 0.0301,
+  "service_seconds_median": 22.26,
+  "service_seconds_p90": 58.57,
+  "service_samples": 525,
+  "statuses": {
+   "completed": 521,
+   "partial": 4
+  },
+  "first_attempt_trouble": 10,
+  "panel_modes": {
+   "synthesis": 525
+  }
+ }
+}

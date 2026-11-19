@@ -1,0 +1,211 @@
+{
+ "multichallenge-2025": {
+  "ref:llama-3-3-70b-instruct": {
+   "score": 29.49977164450367,
+   "ci95": 5.697508830999873,
+   "axes": {
+    "INSTRUCTION_RETENTION": {
+     "n": 69,
+     "passed": 32,
+     "failed_answers": 0,
+     "failed_judge_calls": 0,
+     "score": 46.3768115942029
+    },
+    "INFERENCE_MEMORY": {
+     "n": 113,
+     "passed": 23,
+     "failed_answers": 0,
+     "failed_judge_calls": 1,
+     "score": 20.353982300884955
+    },
+    "RELIABLE_VERSION_EDITING": {
+     "n": 41,
+     "passed": 12,
+     "failed_answers": 0,
+     "failed_judge_calls": 0,
+     "score": 29.26829268292683
+    },
+    "SELF_COHERENCE": {
+     "n": 50,
+     "passed": 11,
+     "failed_answers": 0,
+     "failed_judge_calls": 0,
+     "score": 22.0
+    }
+   },
+   "n": 273,
+   "passed": 78,
+   "failed_answers": 0,
+   "failed_judge_calls": 1
+  },
+  "ref:mixtral-8x7b-instruct": {
+   "score": 14.023711433728419,
+   "ci95": 4.561344525826617,
+   "axes": {
+    "INSTRUCTION_RETENTION": {
+     "n": 69,
+     "passed": 11,
+     "failed_answers": 0,
+     "failed_judge_calls": 0,
+     "score": 15.942028985507246
+    },
+    "INFERENCE_MEMORY": {
+     "n": 113,
+     "passed": 8,
+     "failed_answers": 0,
+     "failed_judge_calls": 0,
+     "score": 7.079646017699115
+    },
+    "RELIABLE_VERSION_EDITING": {
+     "n": 41,
+     "passed": 7,
+     "failed_answers": 0,
+     "failed_judge_calls": 0,
+     "score": 17.073170731707318
+    },
+    "SELF_COHERENCE": {
+     "n": 50,
+     "passed": 8,
+     "failed_answers": 0,
+     "failed_judge_calls": 0,
+     "score": 16.0
+    }
+   },
+   "n": 273,
+   "passed": 34,
+   "failed_answers": 0,
+   "failed_judge_calls": 0
+  },
+  "ref:o1-preview": {
+   "score": 36.43882575224367,
+   "ci95": 6.119944101858396,
+   "axes": {
+    "INSTRUCTION_RETENTION": {
+     "n": 69,
+     "passed": 25,
+     "failed_answers": 0,
+     "failed_judge_calls": 0,
+     "score": 36.231884057971016
+    },
+    "INFERENCE_MEMORY": {
+     "n": 113,
+     "passed": 44,
+     "failed_answers": 0,
+     "failed_judge_calls": 0,
+     "score": 38.93805309734513
+    },
+    "RELIABLE_VERSION_EDITING": {
+     "n": 41,
+     "passed": 15,
+     "failed_answers": 0,
+     "failed_judge_calls": 0,
+     "score": 36.58536585365854
+    },
+    "SELF_COHERENCE": {
+     "n": 50,
+     "passed": 17,
+     "failed_answers": 0,
+     "failed_judge_calls": 0,
+     "score": 34.0
+    }
+   },
+   "n": 273,
+   "passed": 101,
+   "failed_answers": 0,
+   "failed_judge_calls": 0
+  }
+ },
+ "healthbench-professional-physician": {
+  "ref:physician": {
+   "score": 46.77003002555694,
+   "raw_score": 47.18990122555694,
+   "mean_answer_length": 2142.8133333333335,
+   "n": 525,
+   "failed_answers": 0,
+   "failed_judge_calls": 0,
+   "by_use_case": {
+    "consult": 44.149653494939685,
+    "research": 62.29963632309994,
+    "writing": 36.60093928954885
+   },
+   "by_type": {
+    "good_faith": 54.2344907389501,
+    "red_teaming": 34.871090244021254
+   },
+   "by_difficulty": {
+    "difficult": 35.15170562660793,
+    "typical": 59.83941144476508
+   }
+  }
+ },
+ "published": {
+  "multichallenge-2025": {
+   "mixtral-8x7b-instruct": {
+    "paper_model": "Mixtral-8x7B-Instruct-v0.1",
+    "source": "Sirdeshmukh et al., MultiChallenge, arXiv:2501.17399v2 (6 Mar 2025), https://arxiv.org/abs/2501.17399v2, Table 5",
+    "judge": "gpt-4o-2024-08-06",
+    "score": 11.08,
+    "axes": {
+     "INSTRUCTION_RETENTION": 13.04,
+     "INFERENCE_MEMORY": 7.08,
+     "RELIABLE_VERSION_EDITING": 12.2,
+     "SELF_COHERENCE": 12.0
+    },
+    "axis_n": {
+     "INSTRUCTION_RETENTION": 69,
+     "INFERENCE_MEMORY": 113,
+     "RELIABLE_VERSION_EDITING": 41,
+     "SELF_COHERENCE": 50
+    },
+    "passed": 28,
+    "compare_on": "score"
+   },
+   "llama-3-3-70b-instruct": {
+    "paper_model": "Llama-3.3-70B-Instruct",
+    "source": "Sirdeshmukh et al., MultiChallenge, arXiv:2501.17399v2 (6 Mar 2025), https://arxiv.org/abs/2501.17399v2, Table 5",
+    "judge": "gpt-4o-2024-08-06",
+    "score": 23.19,
+    "axes": {
+     "INSTRUCTION_RETENTION": 33.33,
+     "INFERENCE_MEMORY": 15.04,
+     "RELIABLE_VERSION_EDITING": 24.39,
+     "SELF_COHERENCE": 20.0
+    },
+    "axis_n": {
+     "INSTRUCTION_RETENTION": 69,
+     "INFERENCE_MEMORY": 113,
+     "RELIABLE_VERSION_EDITING": 41,
+     "SELF_COHERENCE": 50
+    },
+    "passed": 60,
+    "compare_on": "score"
+   },
+   "o1-preview": {
+    "paper_model": "o1-preview",
+    "source": "Sirdeshmukh et al., MultiChallenge, arXiv:2501.17399v2 (6 Mar 2025), https://arxiv.org/abs/2501.17399v2, Table 3",
+    "judge": "gpt-4o-2024-08-06",
+    "score": 35.73,
+    "axes": {
+     "INSTRUCTION_RETENTION": 28.57,
+     "INFERENCE_MEMORY": 38.98,
+     "RELIABLE_VERSION_EDITING": 39.02,
+     "SELF_COHERENCE": 36.36
+    },
+    "axis_n": {
+     "INSTRUCTION_RETENTION": 70,
+     "INFERENCE_MEMORY": 118,
+     "RELIABLE_VERSION_EDITING": 41,
+     "SELF_COHERENCE": 44
+    },
+    "passed": 98,
+    "compare_on": "passed"
+   }
+  },
+  "healthbench-professional-physician": {
+   "ref:physician": {
+    "score": 43.7,
+    "source": "arXiv 2604.27470 §5.1"
+   }
+  }
+ }
+}

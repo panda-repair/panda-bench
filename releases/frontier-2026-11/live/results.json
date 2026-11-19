@@ -1,0 +1,174 @@
+{
+ "healthbench-professional": {
+  "auto": {
+   "items": 8,
+   "statuses": {
+    "completed": 8
+   },
+   "charge_cents": 8,
+   "paired_items": 8,
+   "live_score": 40.37784607142857,
+   "replay_score": 37.16968107142857
+  },
+  "auto:quality": {
+   "items": 8,
+   "statuses": {
+    "completed": 8
+   },
+   "charge_cents": 28,
+   "paired_items": 8,
+   "live_score": 35.25452857142857,
+   "replay_score": 35.94432607142857
+  },
+  "panel:panda": {
+   "items": 8,
+   "statuses": {
+    "completed": 7,
+    "partial": 1
+   },
+   "charge_cents": 13,
+   "paired_items": 8,
+   "live_score": 51.23107857142857,
+   "replay_score": 39.39845857142857
+  },
+  "panel:panda-quality": {
+   "items": 8,
+   "statuses": {
+    "completed": 7,
+    "partial": 1
+   },
+   "charge_cents": 18,
+   "paired_items": 8,
+   "live_score": 27.03039107142857,
+   "replay_score": 39.10776607142857
+  }
+ },
+ "multichallenge": {
+  "auto": {
+   "items": 8,
+   "statuses": {
+    "completed": 8
+   },
+   "charge_cents": 8,
+   "paired_items": 8,
+   "live_score": 72.22222222222221,
+   "replay_score": 61.11111111111111
+  },
+  "auto:quality": {
+   "items": 8,
+   "statuses": {
+    "completed": 7,
+    "failed": 1
+   },
+   "charge_cents": 20,
+   "paired_items": 8,
+   "live_score": 77.77777777777779,
+   "replay_score": 88.88888888888887
+  },
+  "panel:panda": {
+   "items": 8,
+   "statuses": {
+    "completed": 8
+   },
+   "charge_cents": 10,
+   "paired_items": 8,
+   "live_score": 69.44444444444444,
+   "replay_score": 72.22222222222221
+  },
+  "panel:panda-quality": {
+   "items": 8,
+   "statuses": {
+    "completed": 8
+   },
+   "charge_cents": 18,
+   "paired_items": 8,
+   "live_score": 69.44444444444444,
+   "replay_score": 72.22222222222221
+  }
+ },
+ "simpleqa-verified": {
+  "auto": {
+   "items": 8,
+   "statuses": {
+    "completed": 8
+   },
+   "charge_cents": 8,
+   "paired_items": 8,
+   "live_score": 40.0,
+   "replay_score": 40.0
+  },
+  "auto:quality": {
+   "items": 8,
+   "statuses": {
+    "completed": 6,
+    "failed": 2
+   },
+   "charge_cents": 6,
+   "paired_items": 8,
+   "live_score": 85.71428571428571,
+   "replay_score": 80.0
+  },
+  "panel:panda": {
+   "items": 8,
+   "statuses": {
+    "completed": 8
+   },
+   "charge_cents": 8,
+   "paired_items": 8,
+   "live_score": 42.857142857142854,
+   "replay_score": 53.333333333333336
+  },
+  "panel:panda-quality": {
+   "items": 8,
+   "statuses": {
+    "completed": 8
+   },
+   "charge_cents": 8,
+   "paired_items": 8,
+   "live_score": 57.14285714285715,
+   "replay_score": 40.0
+  }
+ },
+ "gpqa-diamond": {
+  "auto": {
+   "items": 8,
+   "statuses": {
+    "completed": 8
+   },
+   "charge_cents": 8,
+   "paired_items": 8,
+   "live_score": 62.5,
+   "replay_score": 75.0
+  },
+  "auto:quality": {
+   "items": 8,
+   "statuses": {
+    "completed": 8
+   },
+   "charge_cents": 21,
+   "paired_items": 8,
+   "live_score": 100.0,
+   "replay_score": 75.0
+  },
+  "panel:panda": {
+   "items": 8,
+   "statuses": {
+    "completed": 8
+   },
+   "charge_cents": 12,
+   "paired_items": 8,
+   "live_score": 87.5,
+   "replay_score": 75.0
+  },
+  "panel:panda-quality": {
+   "items": 8,
+   "statuses": {
+    "completed": 8
+   },
+   "charge_cents": 20,
+   "paired_items": 8,
+   "live_score": 87.5,
+   "replay_score": 75.0
+  }
+ }
+}

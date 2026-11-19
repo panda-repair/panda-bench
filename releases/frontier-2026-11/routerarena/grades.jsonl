@@ -1,0 +1,809 @@
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-edfacd9d6f6d5c67"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-72c8c22120fe0f2d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-96585ff25a3b11a2"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-e7490c78bdcd03b8"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-26609a3b49a4343c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-bfa99088810ec36c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-37fa062277d70c81"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-ff2f3673903e55e2"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-b617618f4e0bc7f4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-fe950d0aa598637a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-e1932c159ba8d398"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-a33844e2a7b47706"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-48c9eefd5b94145e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-8174dfd1bdf92945"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-1cdbba9383e65378"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-0a33a54b524ef332"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-b6aee41ff07cb7c7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-40769f332088ba66"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-fcd205115cea50a5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-96c64444dd3e773a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-7d65a2b93f0a2686"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-93f74ac426544e98"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-0ded7da779953cbb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-ff782e64ae3925a1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-bb978b16bbaf82c0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-a4448e27059709d6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-ce0f29de8f163c19"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-674150853ef7b979"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-46c2e3784870ec55"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-7f6600c7a4fa3561"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-a6abdc6cfe17d407"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-1f8502b2da8059d8"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-6573e8c0d6175af4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-15546f0d6b130b55"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-bc020ab1482892a0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-d4e1fdc2bfa24201"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-4982ce7ccc866bd1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-c7c592ecdf360b77"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-38fbaf744f22eea9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-06f0b8db7307c96b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-5865bb147c3f556b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-bd50caa3cbbe080c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-d467a86b25ffe6c3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-cb32c6bc1bfe61d7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-afb4f9495ed85ea2"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-844adb2f13214900"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-38da93050d39c2a6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 0.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": false, "item": "ra-e03408d4603900bd"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-c4c7aca6627fd9af"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 0.0, "failed_answer": false, "code_check": "no_code", "correct": false, "item": "ra-ce3633a45dcf8c38"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-fdb8a2e7d2180db9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-036eb192e5c5d7cf"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-20599a9f9ec9150c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-69174c383da0e832"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-ec779aadb54df050"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-e08025824b398dd5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-702156b6e7964d0c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-890812440744c413"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-f496b2555144ddac"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-406c8971b1781101"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-123648598d52f77a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-95cd2d1d3f45edaa"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 0.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": false, "item": "ra-4d76ba51f1ea1761"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-15a7bb77c61fe16e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 0.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": false, "item": "ra-f7bcdbe057fbc256"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 0.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": false, "item": "ra-f0c9b72d9b9583da"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-ea91280644a0a167"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-25ec9e00171e4180"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-aba76e7010aa6d74"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-7d6bd0b7c7718754"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-b0102b077e4f0f98"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 0.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": false, "item": "ra-883adcc1985ae564"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-14fb10f5971fc022"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-8253afb5a300842d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-56027df989ec04c0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 1.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": true, "item": "ra-362f5a329129bc89"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "LiveCodeBench", "metric": "code_accuracy", "score": 0.0, "failed_answer": false, "code_check": "ran", "timed_out": false, "third_party_import": false, "correct": false, "item": "ra-d216c9c47679c4f3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "F", "correct": true, "item": "ra-65eedc219c7f11b2"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-d89e04034d8d5427"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-bd0d94e8989fa90b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-c0aeb60a8d3ff65d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-0189ed5fb8897b2e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "F", "correct": true, "item": "ra-6294850acd9b2724"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-4ef66f608524610a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-e72905853591bb14"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-07b3dd9e79f8fc0d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-02bdca627efe9658"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "F", "correct": true, "item": "ra-44d718ea46676c92"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-31b8533c101f349c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "F", "correct": true, "item": "ra-a03051ef223b5833"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "F", "correct": true, "item": "ra-86234e2bcc3edee1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-cef1b9dddd098aa2"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-67a75ef9e8523522"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-ff80207cf2148cd5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-c2421925193c64f3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-33fc38ac98502563"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "I", "correct": true, "item": "ra-cf7c2b681b7db58d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-d21bdec5da646286"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-20192330ed7f6022"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-e1cc7acbf95604fa"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-141d0801c262fc4e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-6ae85bd9c5d36e8e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-adeb28a412b226fc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "F", "correct": false, "item": "ra-2be07857001f6edc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-c540a0bc4ea8acf6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-8e1edc4507d0ef5b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "I", "correct": true, "item": "ra-cc94690f984558b5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-ad2caaa2a33a01e7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "I", "correct": true, "item": "ra-bea2b21862f2da09"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-b824cef1633b1c20"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-afc3ef9d96b2a06a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "F", "correct": true, "item": "ra-d33868e1cdca411c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-a23603ed2abdc34d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-95e418fb9d04a93c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-0c987c2f5ee39ee5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-3e35fd8b8661e54c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-6ed0cf4f346e6b95"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-d937050d98c3aac3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-f732e147195d1f4b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-4006cb4196f5e158"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-848a62776a04685d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-621fc1de1232b616"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-a28594f2d0fecada"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-5027bd86485ab46f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-ab939b2554333e05"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-3d7ab3c5864a50b9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-62e271a06d2bd8d4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-ec52b51b85c2f4eb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-e854b0cac1ce99c4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-ceceb6e859e439aa"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-9edd805780632c5c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-475554e270fc5507"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-d1fd9d38e9dd92c8"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-5ea7fe9f27be0fc7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-0ebf9c3417a9585a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-37a2e79b616dc26b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-f036c773b31eb87b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-f146ea0b04733fc0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-8bca16cb9d7cc4fd"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-84407649c8a6bee6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-7a9940da6977e622"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-63a9487889fb8233"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-dc94b26087bffab7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-bc17efae097c05f6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-127dd00cf098506a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-a07675a2e7cdc179"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-03e8a6753f2ab697"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-4eb603dc9a126c5d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-e7ee868e52bd34ea"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-92da96853f1ef190"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-a42cd212b6d725cc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-f668d81172f73895"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-fe13b79e16215b98"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-bd97c9d1db8ebcb9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-0c703dacfd3bd4fe"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-51a73b269dd91fb0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-6c614c38448debb3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-07280bde89280834"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-4298c6cdbf393643"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-4d94b62cfb9e2ec3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-6305390894c4c7a5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-ff2415d4a8fcf98b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-bbe5855d1ad3ba16"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-f8ffd0a740f6aea9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-788b1d3a91352ba3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "Ethics_commonsense", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-4445f32151ebd2e7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-8ca07ebfdd61eae1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-e1acbed5198b115d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-8b91b5b23daa5a37"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-1a5c703ae1f7be68"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-7e5aed18138dcbd1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-536616d9cf414db0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "G", "correct": false, "item": "ra-96832784ee901461"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-30e9b15b96b592d8"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-a60b7579a6da5526"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-9179be9b07085d59"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-3d299a162b18c914"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-9068fcb96c79a4f3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "F", "correct": true, "item": "ra-6ad32010cf0df08d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "E", "correct": false, "item": "ra-92f4c1b9ffe6f9f8"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-07081ee6d2bcb964"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-cdc93ed58419008a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-4807f6157264318c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-1eabc9505019a18d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-6574afc4128eb134"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-46cf4406bcf46818"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "G", "correct": false, "item": "ra-e4dd88daf086132f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-073e51155a33afb9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-b61824f2139b514c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-64a069a18b0d8147"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-abcb162e926e0691"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-ece1a57a80ba1880"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-6f6781f93a567265"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-4dbf613c936c4cba"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-ad48504361cbc8ad"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-418991d8206501be"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-9ee8f4478c7ab718"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-4ea31f281516dfbd"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-7ded220f238e5e7d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-db1726f2ae2042f5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-b7ee7d081195bc14"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "FinQA", "metric": "math_metric", "score": 0.0, "failed_answer": false, "math_check": "decided", "correct": false, "item": "ra-82363cc207f09529"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "FinQA", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-c868de841c25bc9b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "FinQA", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-d1b584b4e3e956c9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "FinQA", "metric": "math_metric", "score": 0.0, "failed_answer": false, "math_check": "decided", "correct": false, "item": "ra-68a20f38c0d0469d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "FinQA", "metric": "math_metric", "score": 0.0, "failed_answer": false, "math_check": "decided", "correct": false, "item": "ra-3b66ab793d99909f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "FinQA", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-43b00bfcafd3a4f0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "FinQA", "metric": "math_metric", "score": 0.0, "failed_answer": false, "math_check": "decided", "correct": false, "item": "ra-9d0c538cad1bfc1c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-a99459283594dc4d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-5200a46720b1a687"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-9c7d9f41e62fbb92"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-e3cbfa4d61fca2a4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-d70401044426a6d6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-082bfb6e81686037"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-ae6951f8920889c3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-84623270d3835fb3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-97768b12e62da098"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-b8a953bf516ad93c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-c5b2298a73b59484"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-3bd70e3f008d98ae"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-2a8492939a7f293f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-eb37d6a1d6a289f6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "J", "correct": false, "item": "ra-57dafda12ba770aa"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "F", "correct": true, "item": "ra-02c4468ceb454b52"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-41e02ec9f34767ca"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-e470fbbe1195af16"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-108fef3a669d2701"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-a432487045876072"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-6fb82eae3bc1a0ad"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-8a4eeacb5022531f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-bf57f87ed973d647"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-db1feb54761ce236"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-aecc9fb04c69a7d5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-d6ed5d448368e38c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-68ea1c224575f780"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-7f78ed9a693f93ee"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-819f91a8367f0a61"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-0c5a848d408a9497"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "H", "correct": false, "item": "ra-bc6cc9e0758d3f8e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-12d150aeaa8de9d1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "I", "correct": true, "item": "ra-6b40500a144a7648"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "E", "correct": false, "item": "ra-4b4387155ad5ecef"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-59e45aa09aca1ec8"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-12eefed41bace82f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "I", "correct": true, "item": "ra-55d86975ef63fa9b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "J", "correct": false, "item": "ra-de41768302b644b4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-8dad926ac2533041"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-1a9707788ad7c6ed"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-cc7d353ebf6d4f10"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-f56a147774700a61"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-86e7ffa37be0e40f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-e4de4c8f3d30cfdc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-42bbe19d80f496c5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "I", "correct": true, "item": "ra-1f12b6853d15ff97"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-9940b5e89258fb15"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-20b02cb44e20f9a8"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-69c2e1861c042dc6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-d73f726fb27fbb9e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-5025c1c5a91319ce"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-af9fba308d999efa"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SocialiQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-6e7db4d703fc3cb0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SocialiQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-ee5c22198c393f54"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SocialiQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-34149515856fe6ad"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SocialiQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-59224ad018716529"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SocialiQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-ba1f5798a6240c2d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SocialiQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-3e176bbd26e9f482"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SocialiQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-5255d255ef2979e3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-CausalReasoning", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-a9af6fc1926556d6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-CausalReasoning", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-3b352364a92efb7a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-ClozeTest", "metric": "superglue_clozetest", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-7dc03f6b7f1d5b68"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-ClozeTest", "metric": "superglue_clozetest", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-a61cae5ff935ade5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-ClozeTest", "metric": "superglue_clozetest", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-3969e3414205bf91"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-ClozeTest", "metric": "superglue_clozetest", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-662a937b97060040"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-ClozeTest", "metric": "superglue_clozetest", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-417cdfd6af147e7e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Entailment", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-5dacf0db3e51af9b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Entailment", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-6fdad6c02653d5ba"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Entailment", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-72bee0c51556a1d0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Entailment", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-d961774d903d89cf"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Entailment", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-6dcfb79e2fe28f48"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Entailment", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-43ad40646e5376b0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-QA", "metric": "superglue_exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-717ba9c1443da6a7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-QA", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-e4476be878bf8925"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-QA", "metric": "superglue_exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-540abfea03f71eee"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-QA", "metric": "superglue_exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-8ac85e75188e42ae"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-QA", "metric": "superglue_exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-af1912ba71cba511"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-QA", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-0c296c576eccabc0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-QA", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-ff55e5afafc1dce0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-RC", "metric": "superglue_exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-7d2e35ce4b049c3e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-RC", "metric": "superglue_exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-17e0233b77d46731"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-RC", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-7be2d773f9364fb5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-RC", "metric": "superglue_exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-e9086c3689dd687e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-RC", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-a0eb04e7cf3fcece"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-RC", "metric": "superglue_exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-650d1aa0889743a1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Wic", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-9aa6a48eb982fd90"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Wic", "metric": "superglue_exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-1ffd941554fdc377"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Wic", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-992fe027b6e0b111"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Wic", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-0fcdbf3ea47f239b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Wic", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-6b69f4f3d8404da4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Wic", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-eeb332c2f3f03def"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Wic", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-498b61003a323036"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Wic", "metric": "superglue_exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-77543894b27e41b1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Wic", "metric": "superglue_exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-83e7c73958311d7e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Wic", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-7b776919fb0de79a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Wsc", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-b9f877b307b42468"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Wsc", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-232d0ed0a28cde09"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "SuperGLUE-Wsc", "metric": "superglue_exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-df9803675327de9e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-gu-en", "metric": "meteor_score", "score": 0.8779411764705882, "failed_answer": false, "correct": null, "item": "ra-add67f86ca44367a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-lt-en", "metric": "meteor_score", "score": 0.2982456140350877, "failed_answer": false, "correct": null, "item": "ra-fdd3470d1b3008c5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-gu-en", "metric": "meteor_score", "score": 0.7152302243211334, "failed_answer": false, "correct": null, "item": "ra-b3f7bd82b652cf8b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-de-en", "metric": "meteor_score", "score": 0.8426573426573427, "failed_answer": false, "correct": null, "item": "ra-1f359f8df34c9dd2"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-kk-en", "metric": "meteor_score", "score": 0.3862433862433862, "failed_answer": false, "correct": null, "item": "ra-0f1430751404de14"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-cs-en", "metric": "meteor_score", "score": 0.4346590909090909, "failed_answer": false, "correct": null, "item": "ra-93a843d6bd5ad0eb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-gu-en", "metric": "meteor_score", "score": 0.6341176470588236, "failed_answer": false, "correct": null, "item": "ra-bdf1be4b50461e16"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-de-en", "metric": "meteor_score", "score": 0.8606927710843374, "failed_answer": false, "correct": null, "item": "ra-51b0355a7f331d3a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-gu-en", "metric": "meteor_score", "score": 0.4476744186046512, "failed_answer": false, "correct": null, "item": "ra-24c2f76c0e3d56b1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-ru-en", "metric": "meteor_score", "score": 0.89296875, "failed_answer": false, "correct": null, "item": "ra-37ed97f0dec8f277"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-gu-en", "metric": "meteor_score", "score": 0.642622950819672, "failed_answer": false, "correct": null, "item": "ra-12d9eb9de34d05ab"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-fi-en", "metric": "meteor_score", "score": 0.5, "failed_answer": false, "correct": null, "item": "ra-18a0ba6b0f2f54fb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-de-en", "metric": "meteor_score", "score": 0.6761133603238868, "failed_answer": false, "correct": null, "item": "ra-4af8369ddcb6cc3c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-zh-en", "metric": "meteor_score", "score": 0.7503335365743229, "failed_answer": false, "correct": null, "item": "ra-9fba2f18bf5e92c2"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-zh-en", "metric": "meteor_score", "score": 0.7180899908172637, "failed_answer": false, "correct": null, "item": "ra-c6f21d176af12ab9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-lt-en", "metric": "meteor_score", "score": 0.15384615384615383, "failed_answer": false, "correct": null, "item": "ra-8e2c3487183add5c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-gu-en", "metric": "meteor_score", "score": 0.8952483307417909, "failed_answer": false, "correct": null, "item": "ra-e385d5fff9ad2a64"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-de-en", "metric": "meteor_score", "score": 0.5629370629370628, "failed_answer": false, "correct": null, "item": "ra-2fe46bfaebdeff32"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-cs-en", "metric": "meteor_score", "score": 0.40058479532163743, "failed_answer": false, "correct": null, "item": "ra-a94096b28b17fed3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-fi-en", "metric": "meteor_score", "score": 0.27199999999999996, "failed_answer": false, "correct": null, "item": "ra-dbe7dad741c4c79e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-de-en", "metric": "meteor_score", "score": 0.3333333333333333, "failed_answer": false, "correct": null, "item": "ra-7bae16e7ca35a08f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-gu-en", "metric": "meteor_score", "score": 0.6161290322580645, "failed_answer": false, "correct": null, "item": "ra-ea158d23e1c8d6f0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-de-en", "metric": "meteor_score", "score": 0.8151285671501305, "failed_answer": false, "correct": null, "item": "ra-da79071be0d708f7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-gu-en", "metric": "meteor_score", "score": 0.7936746987951806, "failed_answer": false, "correct": null, "item": "ra-09260f67f50981c0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-zh-en", "metric": "meteor_score", "score": 0.451077943615257, "failed_answer": false, "correct": null, "item": "ra-1af895516c941710"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-gu-en", "metric": "meteor_score", "score": 0.8647476815608817, "failed_answer": false, "correct": null, "item": "ra-8f905cefff2ac859"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-cs-en", "metric": "meteor_score", "score": 0.42, "failed_answer": false, "correct": null, "item": "ra-49d2420021423ac8"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-lt-en", "metric": "meteor_score", "score": 0.37777777777777777, "failed_answer": false, "correct": null, "item": "ra-956fc6cb57dc8063"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-de-en", "metric": "meteor_score", "score": 0.7398893146019583, "failed_answer": false, "correct": null, "item": "ra-54d27ac23dfe185c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-gu-en", "metric": "meteor_score", "score": 0.8251133786848073, "failed_answer": false, "correct": null, "item": "ra-a0cec5dfa274b469"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "WMT19-kk-en", "metric": "meteor_score", "score": 0.21458333333333332, "failed_answer": false, "correct": null, "item": "ra-1b301ca1a533dbc0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "AIME", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-e714c59900379caf"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "AIME", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-78458814ac4b928e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "AIME", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-a85142b3ccdf2c9f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "AsDiv", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-2b953bcce156e907"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "AsDiv", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-16ec3d33fd7ca7e9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "AsDiv", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-9dc98aa1d81785c1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "AsDiv", "metric": "math_metric", "score": 0.0, "failed_answer": false, "math_check": "unresolved", "correct": false, "item": "ra-996752e8c818120a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "AsDiv", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-d953294c46b09f58"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "AsDiv", "metric": "math_metric", "score": 0.0, "failed_answer": false, "math_check": "unresolved", "correct": false, "item": "ra-f83bdbc4cd541965"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "AsDiv", "metric": "math_metric", "score": 0.0, "failed_answer": false, "math_check": "unresolved", "correct": false, "item": "ra-12e1f368cd1d0c2d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GSM8K", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-217b63fd418faef1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GSM8K", "metric": "math_metric", "score": 0.0, "failed_answer": false, "math_check": "unresolved", "correct": false, "item": "ra-d66bfc7d147d90e6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-ed5bc87a2f487573"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-d3e18c40ecc9fdae"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-55acb8760b605f93"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-7c92ae0430609ec0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-c95cc21bb7569532"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-ad80b0726426903e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-d314ac03a5222d1d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-e40ee35479a57610"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-ec829e3f10663a4a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-b5c789b3ee637bf6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-bfd7d9b1e5d1fa61"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-db8f633d1e51d546"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-83aa4f9baeb7377b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-f601ca43b406d5c6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-6136ee426d436683"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "E", "correct": false, "item": "ra-40cf4ddb9ea077df"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-beb1f72b6cfdca41"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-22937d68b9c6aba1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-f3e7b67f58bd7bc0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-7446c81577a527db"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-e249de104106abd1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-fca7fb734415b9d4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-56fe3943528f1a6f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-3338e60ddfd119fb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-7c0497cec551fbbb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-f33b7db2bfebfe2d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-cc76432d3aa1eb3a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-63c4542b81cbea93"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-b6a1c163bb1a2ae9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-0f3e1bc617246379"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MATH", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-e758ef184711591e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MATH", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-2a6dc002bbb9b338"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MATH", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-80bddf7bc8f98034"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MATH", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-02886b5ec30795fd"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MATH", "metric": "math_metric", "score": 1.0, "failed_answer": false, "math_check": "decided", "correct": true, "item": "ra-6810098c3c06fa59"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-fcb436721fe3d7eb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-aea95707feb83a9e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-66b7be01f0456d84"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-fdc8df3e8492c92d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-00faabcc602b66cc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-76843609966fb994"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "G", "correct": false, "item": "ra-f93d2debc3260cf7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-4c303dcaf9e5387a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-1971858bb8c4f4cb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-29f3db18f80dc209"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-286618f00924d62a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-d978669dfcbdaceb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-0072f99fd29db39d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-2bf569db614a877d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-ebd0f30fdca338e0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-14cb45bce8cd14ba"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "F", "correct": true, "item": "ra-7167f692c43498e4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-6fe5ca6af079aa8a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-3db3608e97485e55"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-94c265fabdb7c405"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-95cba8a4de406788"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-d03e07c5c239373d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-350d38be5d95caae"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-f97ca1b282a7fd11"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-777ae7e9976b975c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-76d4e91b41b564b8"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-11149c671f1deb0c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "I", "correct": false, "item": "ra-ab204e2ede11ee12"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-e474dd2596105cc0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "F", "correct": true, "item": "ra-a30cace8068c481a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-ceb6cf20e15c7b28"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-65a3293211216a22"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-c9929dd302a9bdb4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-0e96b17ee9aa0627"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "H", "correct": false, "item": "ra-83351a33223d147e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "E", "correct": false, "item": "ra-c0432c19acd71aa9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-af958dae99d3aa56"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "I", "correct": true, "item": "ra-baf79cb2da885683"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-e598f093b5df2f13"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-3049e5a383bcb86e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-d874ce378b4780eb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "I", "correct": true, "item": "ra-eb8ead4b5701be3f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "E", "correct": false, "item": "ra-d1e9d6b09353dc84"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-9477c482c66ac5a5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-b09ff2e71d9a4bfb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-1e5b98c4108778d0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-425d180e48ae2256"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-af522120ff1f6927"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-83a36f34955da37a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-a8e1cc5b518efdc4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-a72de12528787a06"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-f01ec77a4759643f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-96fe98e36fb81e34"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-7c0d42dca85b9dc0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-a1bed83f32b9cd37"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-1016fa33e13d7b4a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-b8cde79507a571f6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-2ca623e565e7a9fd"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-52efee48e861b2ab"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-f17db4f89b669072"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-5fed2a303b5e226b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-2c98cf5125449561"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MathQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-438ebde88408ebd8"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-4c08a612f8137193"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-210bcef5a6561135"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-9e855507a3cba4e6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-558f983113119440"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-b9e4a514797f69dd"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-425492dd59e98c1d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-da80cc7448fef919"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-7640fc1a727e6243"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-2b97fceac45fcae3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-ba6a4fc564f50c74"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-4dcef0392814ea3c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-5eff417d4bdb06e7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-b09a5a9dfb219cc4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-8a26a489d150c97a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-d0ec07e546db1e2a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-3fdaa21c766ddecc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-ac5eeb1561778d31"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-6e0bf4322665ab74"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-f8f2b34e4264261c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-8ecd0f987b79e39e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-415c5d7b13c14415"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "E", "correct": false, "item": "ra-72710c5102165da3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-baee4ae8b8ce431d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-8e104eb36895280e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-35218d6275e88df4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-a90a470aea9553c1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-7a4947fe95fb6e6d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-4e2fc9415e686ab9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-9aa7f8d4de68ff34"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-1bb771753c79ef1d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-0801870994c00d34"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-289aaa0bfe09d681"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-0046478d0168ae44"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-d02a0f61910cfd49"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-6223b717056cc8fc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-1275386173e2e650"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-eef6530dad27a680"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "F", "correct": true, "item": "ra-ed7a8d6d3517a7b6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-5a479ba680d6aab6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-4d16bf3ed11aa3af"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "F", "correct": false, "item": "ra-76b57ebbd1386541"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-d6ef547293539821"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-97f9593b356ab80a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-c6b3999cf8995ae5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-aa189054eed2f588"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-455f3dcdf1d5db12"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-c78eacc46320c460"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "I", "correct": false, "item": "ra-305c461bcd3db9dd"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-57411b313348b14e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-ef123785a79be549"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "I", "correct": true, "item": "ra-92f9f854c71cf969"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-56391502447017fd"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-90e7c331cd58ecba"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-582a0944b585c69f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-026bedf62f43f028"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-467c2786e9c35878"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "F", "correct": true, "item": "ra-366af7313f73c7f6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-75794f7928413e23"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-1a062c07b27b8d83"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-4ee5315ddd9d84f9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-e2885f3ec52b47b3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-7261ce8b87c4cab5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-519d64864382b7e4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "H", "correct": false, "item": "ra-6c97d45dad597327"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-9b259ef3178f9c9f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-186fffb9dba84052"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-87409bac543da663"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-5e116f0c423677a9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-1d6aee6824887138"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-4501934eb358d049"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-4b9694b92c339767"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-40f57e0e923a3aeb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-1d4049d66f8ff720"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-ef5c6aef97c0b25c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-7fa65b7a97ac1c1a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-eb92be85643c234f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLU", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-4b53c0b483067bcc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-db4c72e9323914d0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-2213e4b224caeeee"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-27ba8f9bfb14e088"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-0aa93309513e3ac8"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-998ec4029fe46f8e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-dd9bfacd96b4b496"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-a4edaf4d6ceb954f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-a0d65dd159b1378a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-4028997e4f7aead1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-402fe4fb42296123"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-fb86f25d59fbfc69"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-7a0c9f874d33aec0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-d08c6021200d3ce6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-0c8e4572bc0f2e6f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-e517ed364f2b837e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-3231bfc245400f3a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-456786c46bf6923c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-2e1c7c40a9e04115"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-afb5075607a21b5f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-6e4d3e4f999b4163"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-16a35708cd3622ad"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-e12b37e711d4d5be"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-f9ebf62ed3ac105c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-f7ffb6d7be173ffb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-49af73ab7fe6ac5f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-9422a1a737b9025c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-e7ca49d653f50279"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-66e7e5ec80d7e003"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MedMCQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-129fcdceae215d44"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-c367e3472007357f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-1cbe728f3748ae0d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-318c27f016e2fb20"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-260fc0d4cf274b39"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-722588383f84c342"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-475e5f089fd817c5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-56b0fe4740e24eeb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-1bc61459c9669e6c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-ba10156d472ddd53"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-d89cb503c361fc6e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-b1bc929b3d1a1e00"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-dc1dfe256dd62781"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-712e81ddf7f380ed"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-819a28992930e027"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-5a0254f79d0cfa39"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-1675e824216198a7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-6c8ac2e6f596a2ff"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-55cf3e59dc27d65c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-e845a5e20c5001a8"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-cac8a631be3e9d1a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-184e943b61770c96"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-85af76478eb09d92"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-a96ac1485da8370c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-e5d92611c2b3550f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-2d3a6fe01deef5af"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-c244a2953aa2566d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-79147ddde3d247cb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-b57be07d3e70da3a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-ba7a489358a5fc7b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-c85edadbffde810d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-142805b6fbf2f681"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-b9a8f27ef0d8e3f4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-70b38cd435f2a1e5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-c00451dade19c912"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-831999c22d5c3d57"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-67f2cbc43e58bcba"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-6100faf992549def"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-1ff410fc8b3cb856"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-a4d51c05317c66eb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-3e0f998a87b0a1ff"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-9b09c7e243484af3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-ceefb8a5247eea9c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-04bd361d6eb1d1a7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-8084165969140ee2"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-8e2c2572452469a6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-ba07bedbb8f2195a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-d67e58e64c41eabe"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-44de54d4c068fd25"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-87f56a903df23187"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-ae8143ffc565bfdf"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-b2005fd14a84941f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-cbb6cd305577b2ec"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "PubMedQA", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-a7d531a7314f5ea7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "ChessInstruct", "metric": "chess_accuracy", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-ac325500c2691b73"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "ChessInstruct", "metric": "chess_accuracy", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-c3b2dbb5c83be279"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "ChessInstruct", "metric": "chess_accuracy", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-b5c1058bcd2cccab"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "ChessInstruct", "metric": "chess_accuracy", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-7ffae7f3f4d0f7ea"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "ChessInstruct", "metric": "chess_accuracy", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-75449b2d351c20ee"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "ChessInstruct", "metric": "chess_accuracy", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-4f4a887a2f04cf80"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "ChessInstruct", "metric": "chess_accuracy", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-151b90544bec3fee"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "ChessInstruct", "metric": "chess_accuracy", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-a57f35559ba1127e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "ChessInstruct", "metric": "chess_accuracy", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-e8170a3412ac2541"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "ChessInstruct", "metric": "chess_accuracy", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-302bef5bd5e786d1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "ChessInstruct", "metric": "chess_accuracy", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-54500d166a12f24e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "ChessInstruct", "metric": "chess_accuracy", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-bc89c7f8da48a319"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "ChessInstruct", "metric": "chess_accuracy", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-8defd20855bc80ac"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-b2f6d46df8c9bee4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-9bb8c1d480ee9760"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-657ccf9b776041be"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-4061ba920526fd49"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-c203f3b9075e4f09"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-6654e1f62227c194"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-d0af525b5499588b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-c4d50fe1c450a108"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-3daa3142918d768d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-405fa4c978d84689"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-ce21b7d23b767c84"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-49cdb7ad07e5c57b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-0d24b13e7a9acc71"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-a099a7d2ed21196a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-b561aca4bfec7525"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-3accab622c34545a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-2afe2a99b4b1e270"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-a212b509802e3f30"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-b8360bcdb75be7d6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MusicTheoryBench", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-6018736acaa8ba55"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-cf54d6d0cc9cae58"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-cfecd09f0a135026"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-7a95831f93b677e9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-6d6d3040c089b0c4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-20a84f6f5c7a0330"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-7e40d54daa0b3ef3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-835c89fe5f9fa59e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-b820e0119036f80e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-a8b94db27ed95ba0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-1d162928c14dc32a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-1d238bb8abf211fa"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-b6c50db781481d37"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-28a9b41a25a3c898"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "B", "correct": false, "item": "ra-57693f82c8040608"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-8f866e98a149d8ca"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-247c2508f1890bb9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-49a1f6d601b645a4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-9ddb201b7ce0540c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-8e31f22d8bd96464"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-9b5142233df9581c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-493a7249d44b1acb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-59aeebfc753042e6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-4f9e547a4c971583"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-26fa7492fd93e962"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-fecfd01b6bea3328"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-9640722f84cb06de"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-9a33e0603e837f29"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-591e6c7e7bdc3109"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.0, "failed_answer": false, "correct": null, "item": "ra-663568e835fead82"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 1.0, "failed_answer": false, "correct": null, "item": "ra-f926fe1cfceff412"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.875, "failed_answer": false, "correct": null, "item": "ra-0757c94dea38c3e7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.20289855072463767, "failed_answer": false, "correct": null, "item": "ra-357431b986ba4f9e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.6666666666666666, "failed_answer": false, "correct": null, "item": "ra-41b77a577ac04867"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.875, "failed_answer": false, "correct": null, "item": "ra-e616bcf85bcd6474"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 1.0, "failed_answer": false, "correct": null, "item": "ra-38e75ce4d7ccbba2"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.775, "failed_answer": false, "correct": null, "item": "ra-495908dee5ff4a2b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 1.0, "failed_answer": false, "correct": null, "item": "ra-b10c31125eb08e33"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.0, "failed_answer": false, "correct": null, "item": "ra-cae4a86b1e77cb00"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.7000000000000001, "failed_answer": false, "correct": null, "item": "ra-5b6adcea4daf7233"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 1.0, "failed_answer": false, "correct": null, "item": "ra-a5693f1fc52b3226"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.875, "failed_answer": false, "correct": null, "item": "ra-126e4dfb1604b4f7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.7293233082706766, "failed_answer": false, "correct": null, "item": "ra-d52e30044ab3d18a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.5284090909090908, "failed_answer": false, "correct": null, "item": "ra-e435daf78f22eaad"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.5975206611570247, "failed_answer": false, "correct": null, "item": "ra-96dca5c76ae2bd31"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.37777777777777777, "failed_answer": false, "correct": null, "item": "ra-d28daca06b0a29f7"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.0, "failed_answer": false, "correct": null, "item": "ra-f4117710e0755732"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.7, "failed_answer": false, "correct": null, "item": "ra-0daf0d1cbd6118bb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.98, "failed_answer": false, "correct": null, "item": "ra-08d71d8de078d46d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.19375, "failed_answer": false, "correct": null, "item": "ra-2d27933b46a7d20b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.5764705882352942, "failed_answer": false, "correct": null, "item": "ra-20f30a1a282af064"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.4666666666666666, "failed_answer": false, "correct": null, "item": "ra-e92eb7aae6866a9d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.24561403508771934, "failed_answer": false, "correct": null, "item": "ra-ae324cee4ddcc4b5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.9046153846153845, "failed_answer": false, "correct": null, "item": "ra-37ecd828c666e660"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.1954022988505747, "failed_answer": false, "correct": null, "item": "ra-bd681302da7c2f1a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.3358481938728852, "failed_answer": false, "correct": null, "item": "ra-c78a6e19cec45aee"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.06481481481481481, "failed_answer": false, "correct": null, "item": "ra-220f9b96fba7c34b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.96875, "failed_answer": false, "correct": null, "item": "ra-52d445f1e52cfaf0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.06862745098039216, "failed_answer": false, "correct": null, "item": "ra-7c6e5541926238fc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.875, "failed_answer": false, "correct": null, "item": "ra-8a97e7ae01da64a4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.1513846153846154, "failed_answer": false, "correct": null, "item": "ra-255f7bfc79f19a14"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.184, "failed_answer": false, "correct": null, "item": "ra-3c401a5c92d093eb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.1906976744186047, "failed_answer": false, "correct": null, "item": "ra-e8e7abcda4a57ede"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.1796875, "failed_answer": false, "correct": null, "item": "ra-157407a89981aa33"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.8095238095238094, "failed_answer": false, "correct": null, "item": "ra-f80042b0ea9b053c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.2745098039215686, "failed_answer": false, "correct": null, "item": "ra-d736602814d5fdf3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 0.017429193899782144, "failed_answer": false, "correct": null, "item": "ra-28119aad30b29ca0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "NarrativeQA", "metric": "meteor_score", "score": 1.0, "failed_answer": false, "correct": null, "item": "ra-351803885193675a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-0d3d387ca5cb5404"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-2a057fd451bd6cd6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-f62788e9f562463a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-37576e5710a462ed"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-6d892446aabc3c11"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-aff40bdb1757cae6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-37b63a2c8eefcd71"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-93324f3184a5ea8c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-3343dabc367af807"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-94b72b752e3b0c43"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-ed8a53d450dfadd3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-82a09f4e299e1ce9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-e8a7a21570beb671"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-f8d81703e32f1575"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-6e353ecffb3a6cb9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-7a0381dd56024487"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-258ae0467bd8c21f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-5933196211369c3d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-0d1f9152098f33d2"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-5dc0c1a0308e8294"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-4086a93d4f1dd810"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-cbc524b5e7282a24"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-56d403f17de12a51"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-e5f42f4713688bb2"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-3ace61017e6e5dc4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-f84e33af99243d3a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-5225aa78cbfece19"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-0a772da9077547e3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-ecfcef73ab6f0c69"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-f297cd8d8c2f1ccc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoGraphyData_100k", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-508c88514699167f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoGraphyData_100k", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-09d8cd2df05467ad"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoGraphyData_100k", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-a8a40eab3079ff04"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "GeoGraphyData_100k", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-000afde700b28b68"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "I", "correct": true, "item": "ra-714af35eb9b1b966"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-0448083170cf1e28"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-1926b10a8fb1a0db"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-d80025ac7c480183"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "F", "correct": false, "item": "ra-1ceb31bebaa5dc18"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-bb19db522a2a1352"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "F", "correct": true, "item": "ra-0a3a65cd580d31d0"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-8869dece3d717ddc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-65ee7660d175183d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "J", "correct": true, "item": "ra-087a41bfa1954049"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-39e08d8630d2d730"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-7317a36bb865d9fc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "A", "correct": false, "item": "ra-a94c9aa16aeb883a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "C", "correct": false, "item": "ra-1bfa73a2eb2ce61b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "G", "correct": true, "item": "ra-fbd2b2f18733c2d3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-1dac99896ffc9270"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "E", "correct": true, "item": "ra-025375f693ad24b5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-4fd4ed1d28da5181"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "D", "correct": false, "item": "ra-f8dde44fd9f50e8b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-4a940d5c3a9222c6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "G", "correct": false, "item": "ra-d8d92d468f54cdf4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "J", "correct": false, "item": "ra-21f23b68708ae824"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-bacfb5ee5c0c034b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-faa62dcabda6b8fb"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-292a7b502550bcc9"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-c0984b264da6aabc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-f1f004089bd89f0d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "H", "correct": true, "item": "ra-a29bc65e8207f7e1"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-f118be2a92895696"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "E", "correct": false, "item": "ra-0515bd70ff4227dc"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "G", "correct": false, "item": "ra-a574d3cd884a9f21"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 0.0, "failed_answer": false, "letter": "J", "correct": false, "item": "ra-1fda3298f1ae14ef"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "MMLUPro", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-ab2ab9d2c298685e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-733fc0583656f861"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-2b957c3c3e11db18"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-b5e045456cc4ae83"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-9df34f8b7e2180e3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-e74722c2fd14d9ae"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-7b53eace479c3e8d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-131ec3a415185af5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-87fdaaa7cd4a4d51"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-ec3d453304250635"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-55f71d62f7df3afd"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-03822a6aa69dfe9c"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-abd1d62dc37bb7dd"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-f6dc818f5fd44afd"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-0910533abb1040d2"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-d42a32527e9562d5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-76162436494a8e7b"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "A", "correct": true, "item": "ra-b39f5e13f9b950c3"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "B", "correct": true, "item": "ra-f4645a6b0d50a1b6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "C", "correct": true, "item": "ra-aa508d61b44312ae"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "OpenTDB", "metric": "mcq_accuracy", "score": 1.0, "failed_answer": false, "letter": "D", "correct": true, "item": "ra-64825e6186604631"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-e84416475c227fa6"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-1e342a1d7e1509c4"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-dd769db249464616"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-3d284d8cc29af81f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-4adc097cc7503d3a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-79ad1a8808499f4e"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-b66311d03fbb56e5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-6bfb95a5ab06cc4a"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-0f6f0aca44da559f"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-d59067f3f6d81d10"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-e5541744fa45e542"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-8636ea40365a7da5"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-eda9ca4435d76437"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 1.0, "failed_answer": false, "correct": true, "item": "ra-118985bd0411d8aa"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-27030736c022660d"}
+{"benchmark": "routerarena", "setup": "auto", "dataset": "QANTA", "metric": "exact_match", "score": 0.0, "failed_answer": false, "correct": false, "item": "ra-8901d0b5ce9c360f"}

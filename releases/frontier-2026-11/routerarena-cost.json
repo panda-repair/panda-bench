@@ -1,0 +1,23 @@
+{
+ "accuracy_pct": 74.29,
+ "graded": 809,
+ "items": 809,
+ "complete": true,
+ "routes": {
+  "deepseek-v4.1-flash": 712,
+  "glm-5.3": 37,
+  "glm-5.3-flash": 60
+ },
+ "routerarena_prices": {
+  "cost_per_1k": 0.2005,
+  "unpriced": {},
+  "arena_score": 73.26
+ },
+ "panda_list_prices": {
+  "cost_per_1k": 0.2702,
+  "unpriced": {},
+  "arena_score": 72.92
+ },
+ "panda_retail_per_1k": 10.0,
+ "arena_score_at_retail": 64.55
+}

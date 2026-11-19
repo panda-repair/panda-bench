@@ -1,0 +1,780 @@
+{
+ "schema": "panda-bench.frontier-release/v2",
+ "release": "frontier-2026-11",
+ "judge": "claude-sonnet-5",
+ "judge_settings": "sonnet5-thinking-disabled-v1",
+ "benchmarks": {
+  "healthbench-professional": {
+   "setups": [
+    {
+     "name": "deepseek-v4.1-flash",
+     "kind": "single",
+     "models": [
+      "deepseek-v4.1-flash"
+     ]
+    },
+    {
+     "name": "glm-5.3",
+     "kind": "single",
+     "models": [
+      "glm-5.3"
+     ]
+    },
+    {
+     "name": "glm-5.3-flash",
+     "kind": "single",
+     "models": [
+      "glm-5.3-flash"
+     ]
+    },
+    {
+     "name": "gemini-3.8-flash",
+     "kind": "single",
+     "models": [
+      "gemini-3.8-flash"
+     ]
+    },
+    {
+     "name": "gemini-4-argon",
+     "kind": "single",
+     "models": [
+      "gemini-4-argon"
+     ]
+    },
+    {
+     "name": "panel:panda",
+     "kind": "panel",
+     "models": [
+      "deepseek-v4.1-flash",
+      "gemini-3.8-flash"
+     ],
+     "synthesizer": "deepseek-v4.1-flash"
+    },
+    {
+     "name": "panel:panda-quality",
+     "kind": "panel",
+     "models": [
+      "deepseek-v4.1-flash",
+      "gemini-3.8-flash"
+     ],
+     "synthesizer": "glm-5.3"
+    },
+    {
+     "name": "panel:trio-glm",
+     "kind": "panel",
+     "models": [
+      "glm-5.3-flash",
+      "deepseek-v4.1-flash",
+      "gemini-3.8-flash"
+     ],
+     "synthesizer": "glm-5.3"
+    },
+    {
+     "name": "auto",
+     "kind": "auto",
+     "selector": "auto"
+    },
+    {
+     "name": "auto:quality",
+     "kind": "auto",
+     "selector": "auto:quality"
+    },
+    {
+     "name": "control:deepseek-self-merge",
+     "kind": "panel",
+     "models": [
+      "deepseek-v4.1-flash",
+      "deepseek-v4.1-flash"
+     ],
+     "synthesizer": "deepseek-v4.1-flash"
+    }
+   ],
+   "max_output_tokens": 16384,
+   "pins": {
+    "DATA_REVISION": "349962fd46dd02343a0d8a606491baf59154ea1a",
+    "DATA_SHA256": "d44b08e6e952e04c945e2c406f02533d9e7a989a84e35820ee7efdff20c9e4e2",
+    "DATA_URL": "https://huggingface.co/datasets/openai/healthbench-professional/resolve/349962fd46dd02343a0d8a606491baf59154ea1a/healthbench_professional_eval.jsonl"
+   },
+   "items": 525,
+   "answers": 5775,
+   "calls": 11903,
+   "judge_requests": 12466,
+   "judge_replies": 12466,
+   "rows_written": 5869,
+   "redone": {
+    "auto": 17,
+    "auto:quality": 28,
+    "panel:trio-glm": 4
+   },
+   "window": [
+    "2026-11-18T15:57:07Z",
+    "2026-11-19T07:41:13Z"
+   ],
+   "complete": true,
+   "unfinished": []
+  },
+  "multichallenge": {
+   "setups": [
+    {
+     "name": "deepseek-v4.1-flash",
+     "kind": "single",
+     "models": [
+      "deepseek-v4.1-flash"
+     ]
+    },
+    {
+     "name": "glm-5.3",
+     "kind": "single",
+     "models": [
+      "glm-5.3"
+     ]
+    },
+    {
+     "name": "glm-5.3-flash",
+     "kind": "single",
+     "models": [
+      "glm-5.3-flash"
+     ]
+    },
+    {
+     "name": "gemini-3.8-flash",
+     "kind": "single",
+     "models": [
+      "gemini-3.8-flash"
+     ]
+    },
+    {
+     "name": "gemini-4-argon",
+     "kind": "single",
+     "models": [
+      "gemini-4-argon"
+     ]
+    },
+    {
+     "name": "panel:panda",
+     "kind": "panel",
+     "models": [
+      "deepseek-v4.1-flash",
+      "gemini-3.8-flash"
+     ],
+     "synthesizer": "deepseek-v4.1-flash"
+    },
+    {
+     "name": "panel:panda-quality",
+     "kind": "panel",
+     "models": [
+      "deepseek-v4.1-flash",
+      "gemini-3.8-flash"
+     ],
+     "synthesizer": "glm-5.3"
+    },
+    {
+     "name": "panel:trio-glm",
+     "kind": "panel",
+     "models": [
+      "glm-5.3-flash",
+      "deepseek-v4.1-flash",
+      "gemini-3.8-flash"
+     ],
+     "synthesizer": "glm-5.3"
+    },
+    {
+     "name": "auto",
+     "kind": "auto",
+     "selector": "auto"
+    },
+    {
+     "name": "auto:quality",
+     "kind": "auto",
+     "selector": "auto:quality"
+    },
+    {
+     "name": "control:deepseek-self-merge",
+     "kind": "panel",
+     "models": [
+      "deepseek-v4.1-flash",
+      "deepseek-v4.1-flash"
+     ],
+     "synthesizer": "deepseek-v4.1-flash"
+    }
+   ],
+   "max_output_tokens": 16384,
+   "pins": {
+    "HF_REVISION": "670fd81f270314d0f8f82b34fcfe2187fd28f699",
+    "HF_SHA256": "2711646aba61f814823297714aaf757e3a1b71c66c501402231de48490650515",
+    "HF_URL": "https://huggingface.co/datasets/ScaleAI/MultiChallenge/resolve/670fd81f270314d0f8f82b34fcfe2187fd28f699/data/test-00000-of-00001.parquet",
+    "GITHUB_COMMIT": "5ccefcca6a39020d66c1383c4e6a809cb07afa33",
+    "GITHUB_SHA256": "06c72d1ffa387481910d100b146295f28ab68c4ba0032743eac5c9195edb596e",
+    "JUDGE_PROMPT_SHA256": "7519dc6e1af487f8a9850239b334f16238032994b763a8b5108ad67bd0d5be7f"
+   },
+   "items": 266,
+   "answers": 2926,
+   "calls": 6080,
+   "judge_requests": 2925,
+   "judge_replies": 2925,
+   "rows_written": 2932,
+   "redone": {
+    "auto": 2,
+    "auto:quality": 1,
+    "panel:trio-glm": 2
+   },
+   "window": [
+    "2026-11-18T16:11:41Z",
+    "2026-11-19T07:41:57Z"
+   ],
+   "complete": true,
+   "unfinished": []
+  },
+  "simpleqa-verified": {
+   "setups": [
+    {
+     "name": "deepseek-v4.1-flash",
+     "kind": "single",
+     "models": [
+      "deepseek-v4.1-flash"
+     ]
+    },
+    {
+     "name": "glm-5.3",
+     "kind": "single",
+     "models": [
+      "glm-5.3"
+     ]
+    },
+    {
+     "name": "glm-5.3-flash",
+     "kind": "single",
+     "models": [
+      "glm-5.3-flash"
+     ]
+    },
+    {
+     "name": "gemini-3.8-flash",
+     "kind": "single",
+     "models": [
+      "gemini-3.8-flash"
+     ]
+    },
+    {
+     "name": "gemini-4-argon",
+     "kind": "single",
+     "models": [
+      "gemini-4-argon"
+     ]
+    },
+    {
+     "name": "panel:panda",
+     "kind": "panel",
+     "models": [
+      "deepseek-v4.1-flash",
+      "gemini-3.8-flash"
+     ],
+     "synthesizer": "deepseek-v4.1-flash"
+    },
+    {
+     "name": "panel:panda-quality",
+     "kind": "panel",
+     "models": [
+      "deepseek-v4.1-flash",
+      "gemini-3.8-flash"
+     ],
+     "synthesizer": "glm-5.3"
+    },
+    {
+     "name": "panel:trio-glm",
+     "kind": "panel",
+     "models": [
+      "glm-5.3-flash",
+      "deepseek-v4.1-flash",
+      "gemini-3.8-flash"
+     ],
+     "synthesizer": "glm-5.3"
+    },
+    {
+     "name": "auto",
+     "kind": "auto",
+     "selector": "auto"
+    },
+    {
+     "name": "auto:quality",
+     "kind": "auto",
+     "selector": "auto:quality"
+    }
+   ],
+   "max_output_tokens": 16384,
+   "pins": {
+    "DATA_REVISION": "0dc97e0d28d8233463e005cdc4475cc2a13ba2dc",
+    "DATA_SHA256": "b5db21155444763543fe31b67e7cf28ce2bb225742a5b889421c5f182e2f92f5",
+    "DATA_URL": "https://huggingface.co/datasets/google/simpleqa-verified/resolve/0dc97e0d28d8233463e005cdc4475cc2a13ba2dc/simpleqa_verified.csv"
+   },
+   "items": 1000,
+   "answers": 10000,
+   "calls": 19004,
+   "judge_requests": 9998,
+   "judge_replies": 9998,
+   "rows_written": 10021,
+   "redone": {
+    "auto:quality": 5,
+    "panel:trio-glm": 11
+   },
+   "window": [
+    "2026-11-18T16:14:14Z",
+    "2026-11-19T07:41:37Z"
+   ],
+   "complete": true,
+   "unfinished": []
+  },
+  "gpqa-diamond": {
+   "setups": [
+    {
+     "name": "deepseek-v4.1-flash",
+     "kind": "single",
+     "models": [
+      "deepseek-v4.1-flash"
+     ]
+    },
+    {
+     "name": "glm-5.3",
+     "kind": "single",
+     "models": [
+      "glm-5.3"
+     ]
+    },
+    {
+     "name": "glm-5.3-flash",
+     "kind": "single",
+     "models": [
+      "glm-5.3-flash"
+     ]
+    },
+    {
+     "name": "gemini-3.8-flash",
+     "kind": "single",
+     "models": [
+      "gemini-3.8-flash"
+     ]
+    },
+    {
+     "name": "gemini-4-argon",
+     "kind": "single",
+     "models": [
+      "gemini-4-argon"
+     ]
+    },
+    {
+     "name": "panel:panda",
+     "kind": "panel",
+     "models": [
+      "deepseek-v4.1-flash",
+      "gemini-3.8-flash"
+     ],
+     "synthesizer": "deepseek-v4.1-flash"
+    },
+    {
+     "name": "panel:panda-quality",
+     "kind": "panel",
+     "models": [
+      "deepseek-v4.1-flash",
+      "gemini-3.8-flash"
+     ],
+     "synthesizer": "glm-5.3"
+    },
+    {
+     "name": "panel:trio-glm",
+     "kind": "panel",
+     "models": [
+      "glm-5.3-flash",
+      "deepseek-v4.1-flash",
+      "gemini-3.8-flash"
+     ],
+     "synthesizer": "glm-5.3"
+    },
+    {
+     "name": "auto",
+     "kind": "auto",
+     "selector": "auto"
+    },
+    {
+     "name": "auto:quality",
+     "kind": "auto",
+     "selector": "auto:quality"
+    }
+   ],
+   "max_output_tokens": 16384,
+   "pins": {
+    "DATA_REVISION": "56686c06f5e19865c153de0fdb11be3890014df7",
+    "DATA_SHA256": "461ae7329f15a3e35f8184d2dac24b990f34fdf12f366ca4062d8e6638cd08dc",
+    "DATA_URL": "https://raw.githubusercontent.com/idavidrein/gpqa/56686c06f5e19865c153de0fdb11be3890014df7/dataset.zip",
+    "CSV_SHA256": "41d1213cd7a4998605a26c2798500652572007161b3a92817ba46b35befcd305"
+   },
+   "items": 198,
+   "answers": 1980,
+   "calls": 3768,
+   "judge_requests": 0,
+   "judge_replies": 0,
+   "rows_written": 1981,
+   "redone": {
+    "panel:trio-glm": 1
+   },
+   "window": [
+    "2026-11-18T16:14:14Z",
+    "2026-11-19T07:41:21Z"
+   ],
+   "complete": true,
+   "unfinished": []
+  },
+  "routerarena": {
+   "setups": [
+    {
+     "name": "auto",
+     "kind": "auto",
+     "selector": "auto"
+    }
+   ],
+   "max_output_tokens": 16384,
+   "pins": {
+    "HARNESS_URL": "https://github.com/RouteWorks/RouterArena",
+    "HARNESS_COMMIT": "00cb25a470165b846a24bf3f2112d22dfc5758ce",
+    "DATASET_REVISION": "a4a062ce3313b56bb09c042e1bc37b61d34e3bd8",
+    "SUB10_SHA256": "e7b4b7579e98df0b83202324357d0b91af78666ddbf1038a513d19edaf58efd5",
+    "FULL_SHA256": "358a6bb4160320b5cb5b68d6d0a885c89b128b06d3dea267d77ed6daeebe4369",
+    "LCB_REVISION": "89e5fc5c2a8e748f50e95bc7235fab2372d49bfa",
+    "LCB_SHARD_0_SHA256": "5939509129bd25dc49a16f276005ad006c810aba528bc153e9ec8155edd617e0",
+    "LCB_SHARD_1_SHA256": "18e6ed06641db1bc355e4f2ff150fecbd86d5cf5fe634db974f3777911c25b66",
+    "LCB_SHARD_2_SHA256": "24ec55689daad5da2abc86fe1fac4cd3893783d97db27ff26316b639cbe777a5",
+    "LCB_SHARD_3_SHA256": "e0cdb54a3f965e86cbd909fb7f4c3fa3b304472878bb0c5805026045989bdbbe",
+    "LCB_MANIFEST_SHA256": "de299fbe80dde8e43f408c818b6ee8056602c39efb33c14a4a7809e939930803",
+    "SANDBOX_IMAGE_SHA256": "a6e34c598f2467ed0e9a8d349809fcd8b5c603269512df273a0bb1784edc11b1",
+    "MODEL_COST_JSON_SHA256": "fd9d27b76d74fcf2a7422a9e8cd1b08c2cdfd6b1cc0968887fa9262a7aedc21d"
+   },
+   "items": 809,
+   "answers": 809,
+   "calls": 1618,
+   "judge_requests": 0,
+   "judge_replies": 0,
+   "rows_written": 814,
+   "redone": {
+    "auto": 3
+   },
+   "window": [
+    "2026-11-18T16:33:11Z",
+    "2026-11-19T07:40:47Z"
+   ],
+   "complete": true,
+   "unfinished": []
+  }
+ },
+ "live": {
+  "healthbench-professional": {
+   "answers": 32
+  },
+  "multichallenge": {
+   "answers": 32
+  },
+  "simpleqa-verified": {
+   "answers": 32
+  },
+  "gpqa-diamond": {
+   "answers": 32
+  }
+ },
+ "starts": [
+  {
+   "at": "2026-11-18T16:27:10Z",
+   "harness": {
+    "commit": "2a1d84f72167739d1b7dd51a92485407bdb4cb98",
+    "dirty_files": 2
+   },
+   "product_source": {
+    "commit": "3cedbb0db6fd520a30535b7a5d5cdc4afd3f4ee3",
+    "dirty_files": 4
+   },
+   "benchmarks": [
+    "gpqa-diamond",
+    "healthbench-professional",
+    "multichallenge",
+    "simpleqa-verified"
+   ]
+  },
+  {
+   "at": "2026-11-18T16:33:10Z",
+   "harness": {
+    "commit": "631826022f5832510774bbad7910c043c97fb45d",
+    "dirty_files": 0
+   },
+   "product_source": {
+    "commit": "3cedbb0db6fd520a30535b7a5d5cdc4afd3f4ee3",
+    "dirty_files": 4
+   },
+   "benchmarks": [
+    "gpqa-diamond",
+    "healthbench-professional",
+    "multichallenge",
+    "routerarena",
+    "simpleqa-verified"
+   ]
+  },
+  {
+   "at": "2026-11-18T18:55:46Z",
+   "harness": {
+    "commit": "631826022f5832510774bbad7910c043c97fb45d",
+    "dirty_files": 0
+   },
+   "product_source": {
+    "commit": "3cedbb0db6fd520a30535b7a5d5cdc4afd3f4ee3",
+    "dirty_files": 4
+   },
+   "benchmarks": [
+    "gpqa-diamond",
+    "healthbench-professional",
+    "multichallenge",
+    "routerarena",
+    "simpleqa-verified"
+   ]
+  },
+  {
+   "at": "2026-11-18T19:02:42Z",
+   "harness": {
+    "commit": "631826022f5832510774bbad7910c043c97fb45d",
+    "dirty_files": 1
+   },
+   "product_source": {
+    "commit": "3cedbb0db6fd520a30535b7a5d5cdc4afd3f4ee3",
+    "dirty_files": 4
+   },
+   "benchmarks": [
+    "gpqa-diamond",
+    "healthbench-professional",
+    "multichallenge",
+    "routerarena",
+    "simpleqa-verified"
+   ]
+  },
+  {
+   "at": "2026-11-18T19:36:25Z",
+   "harness": {
+    "commit": "631826022f5832510774bbad7910c043c97fb45d",
+    "dirty_files": 1
+   },
+   "product_source": {
+    "commit": "3cedbb0db6fd520a30535b7a5d5cdc4afd3f4ee3",
+    "dirty_files": 4
+   },
+   "benchmarks": [
+    "gpqa-diamond",
+    "healthbench-professional",
+    "multichallenge",
+    "routerarena",
+    "simpleqa-verified"
+   ]
+  },
+  {
+   "at": "2026-11-18T23:09:52Z",
+   "harness": {
+    "commit": "631826022f5832510774bbad7910c043c97fb45d",
+    "dirty_files": 2
+   },
+   "product_source": {
+    "commit": "3cedbb0db6fd520a30535b7a5d5cdc4afd3f4ee3",
+    "dirty_files": 4
+   },
+   "benchmarks": [
+    "gpqa-diamond",
+    "healthbench-professional",
+    "multichallenge",
+    "routerarena",
+    "simpleqa-verified"
+   ]
+  },
+  {
+   "at": "2026-11-19T07:39:45Z",
+   "harness": {
+    "commit": "c3e9cdfa965e422377d28381770181b2041bff27",
+    "dirty_files": 1
+   },
+   "product_source": {
+    "commit": "3cedbb0db6fd520a30535b7a5d5cdc4afd3f4ee3",
+    "dirty_files": 4
+   },
+   "benchmarks": [
+    "gpqa-diamond",
+    "healthbench-professional",
+    "multichallenge",
+    "routerarena",
+    "simpleqa-verified"
+   ]
+  }
+ ],
+ "files": {
+  "gpqa-diamond/answers.jsonl": {
+   "sha256": "5ac9e375510ebccb92e8fbcbdfd7b1c33cf422a00b425921dd032cc6417a6a00",
+   "bytes": 872624
+  },
+  "gpqa-diamond/grades.jsonl": {
+   "sha256": "d0c4c990a8644b71f971446bc321b4a739c5b1bd77148dc38e477a3a6b7fb24d",
+   "bytes": 437685
+  },
+  "gpqa-diamond/items.jsonl": {
+   "sha256": "7560c5ec367cfd11bae875725b08726988ec979789746d05ea7f4a1ee7c731d7",
+   "bytes": 42380
+  },
+  "gpqa-diamond/judge.jsonl": {
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  "gpqa-diamond/results.json": {
+   "sha256": "4000e720b45c55c943a9be236e1b221686b70f22d74a6bb5f39f838871f00941",
+   "bytes": 6545
+  },
+  "gpqa-diamond/usage.jsonl": {
+   "sha256": "da5b8f2758facf85bfbf53606aa85e750e61749d4fc0fe7a4b159ea3c29adba4",
+   "bytes": 1403788
+  },
+  "grader-check.json": {
+   "sha256": "0e3d5ee1403d2168f4d913f52c14aaeabb680768b4919cc793ce98ff528d5642",
+   "bytes": 5045
+  },
+  "healthbench-professional/answers.jsonl": {
+   "sha256": "11003ec3ead3b17694b4d4b2a7825d525cd0d3188715424e1c9bafca26bd4efc",
+   "bytes": 2649680
+  },
+  "healthbench-professional/grades.jsonl": {
+   "sha256": "b469d8ea9f4528a5b665e8b1151b5c7d844a4b9c9bff1005108358ed70c2cf0a",
+   "bytes": 1935556
+  },
+  "healthbench-professional/items.jsonl": {
+   "sha256": "6b73604ee237d6c1713350bd3afc2a56a3090686ba3eba4fea92ebf78453eeb2",
+   "bytes": 99897
+  },
+  "healthbench-professional/judge.jsonl": {
+   "sha256": "da29c68ab9acb47907e8d89483041589ddc712ba6df7f7b7d45da1ca9334019c",
+   "bytes": 5923083
+  },
+  "healthbench-professional/results.json": {
+   "sha256": "661ca37a7b116da6f61e55138ed75e17852f59095185c148639e607ecd23ebdd",
+   "bytes": 10738
+  },
+  "healthbench-professional/usage.jsonl": {
+   "sha256": "51962adb2a0d6f249de42b3c4badbc7130fc9a4945e4eeae7e42a6ca9168143b",
+   "bytes": 4435899
+  },
+  "live/gpqa-diamond.answers.jsonl": {
+   "sha256": "43c009823886b78537885c671d1c87d8e138db97ab4ea443c11fadc3611f2c5a",
+   "bytes": 30054
+  },
+  "live/gpqa-diamond.grades.jsonl": {
+   "sha256": "1633721e1a290b194899dc1b044824c6407014212dd9e2d2d1aa264ebaef855c",
+   "bytes": 7189
+  },
+  "live/healthbench-professional.answers.jsonl": {
+   "sha256": "d080e287226aa77b11a2c4b957ef37dccd064e39f36cffa9ff89c03ecff5e836",
+   "bytes": 30043
+  },
+  "live/healthbench-professional.grades.jsonl": {
+   "sha256": "aa3510049eeb26e96caaed2ab448501b072f4c88b1377b0b5ee427625d003923",
+   "bytes": 10751
+  },
+  "live/multichallenge.answers.jsonl": {
+   "sha256": "ad22da6099ac78a8b66674ca92715063f021eb2ca42bfbaa0b7b721d7900cf72",
+   "bytes": 30398
+  },
+  "live/multichallenge.grades.jsonl": {
+   "sha256": "aa76f0f6c72b0e3a25ee7ffce51befdd1532f4a2a136793314c3a615de250b26",
+   "bytes": 6563
+  },
+  "live/results.json": {
+   "sha256": "27ea103a0b5d2f39463aca23d4bf93fd1924e3f971375fef455b88f7a59fff18",
+   "bytes": 3212
+  },
+  "live/simpleqa-verified.answers.jsonl": {
+   "sha256": "12069996d9b13ff565034f739b5ffd4f68df31e98d1f4d6b9a1fd8f74ba1e9cd",
+   "bytes": 28899
+  },
+  "live/simpleqa-verified.grades.jsonl": {
+   "sha256": "2c0070b0c801080ea94371f94447e267d7460a892bb03b8f1a85553c9b2f46b1",
+   "bytes": 8131
+  },
+  "multichallenge/answers.jsonl": {
+   "sha256": "3acb0bfb3486422fc20e1b4995aabc44f657d199de36094e54130b376a82bd4a",
+   "bytes": 1343992
+  },
+  "multichallenge/grades.jsonl": {
+   "sha256": "22758e7004be8c4f0965c78111d1e74d64f62831a997b2616a72043f9d92c308",
+   "bytes": 594916
+  },
+  "multichallenge/items.jsonl": {
+   "sha256": "c572a7e000cceac9a4f24280df0b12b86b050d90b572d08193a5ba523fbed266",
+   "bytes": 73719
+  },
+  "multichallenge/judge.jsonl": {
+   "sha256": "652f278e07815e3b5f1e1936dca1f5842d67dbd5c123606e87e8b65d222ef028",
+   "bytes": 1403662
+  },
+  "multichallenge/results.json": {
+   "sha256": "9d150552a52b9e6aa28f97e88a84ede0d425f9260f68ead643185eff256b0b99",
+   "bytes": 13414
+  },
+  "multichallenge/usage.jsonl": {
+   "sha256": "03d595cdd9364da3a48c91f2b1a010c70998ca040cbd60911e5aea2c487a276d",
+   "bytes": 2269318
+  },
+  "routerarena/answers.jsonl": {
+   "sha256": "8a04d46af0f4d3739c547db9f793c945cf58405c3915f4e31b2c1c7d0b6662c7",
+   "bytes": 365233
+  },
+  "routerarena/grades.jsonl": {
+   "sha256": "f54c2469ce81d2bec9414d710e8b04da94eeefe20db5835d2def3c2b6db6a9d2",
+   "bytes": 159813
+  },
+  "routerarena/items.jsonl": {
+   "sha256": "7f62ba5dca4d705be428dfd355b84cce5d0d5406a6f2d04b7599e9455ce5cceb",
+   "bytes": 270701
+  },
+  "routerarena/judge.jsonl": {
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  "routerarena/results.json": {
+   "sha256": "1acc65a9e4159ef702be1784a74e81aa1b7ba4f5ea19806b33d27dbf139d8f31",
+   "bytes": 3666
+  },
+  "routerarena/usage.jsonl": {
+   "sha256": "d100ca5f191822a646cc42a25750e25e20503e022d268b8487169d78a322ff76",
+   "bytes": 581354
+  },
+  "routerarena-cost.json": {
+   "sha256": "fafab7a5c9176f1c2dc8514f3f42fe0fd84b559dab0f93bcf1ef14a0e4504b88",
+   "bytes": 415
+  },
+  "simpleqa-verified/answers.jsonl": {
+   "sha256": "7c3f02e7c54950886568ac2639d85dde261115a95c3d0e278295846322ce9430",
+   "bytes": 4406290
+  },
+  "simpleqa-verified/grades.jsonl": {
+   "sha256": "66a11f38f5981ba56f27fc04258a60030394632250df40a60ed996d531b2e053",
+   "bytes": 2500804
+  },
+  "simpleqa-verified/items.jsonl": {
+   "sha256": "9a56bcc28bf179edd4912f50f7eb2d557a571e5410806369bc7f8255eb05a7e6",
+   "bytes": 188684
+  },
+  "simpleqa-verified/judge.jsonl": {
+   "sha256": "28ec6e7625e3bfe144c44ab1031f0bfeac575ddd5fbad3c6ad092a96742590b3",
+   "bytes": 4768056
+  },
+  "simpleqa-verified/results.json": {
+   "sha256": "8245e8a643d0ca1e44d7bbe6a6352d49f3a85bb4a6f7ebd42058b61b5c730c31",
+   "bytes": 7657
+  },
+  "simpleqa-verified/usage.jsonl": {
+   "sha256": "eaab3cf59e84c7a0b23b089f5392ec40bb00b095bbfde8ba4c99981ed2d15942",
+   "bytes": 7007616
+  }
+ },
+ "notes": {
+  "about": "Panda's single models, Panels and routers on five public benchmarks, 2026-11-18 to 2026-11-19. Method, caveats and results: docs/frontier/README.md. The log kept during the run: docs/frontier/learnings.md.",
+  "judge_offset": "The stand-in judge (Claude Sonnet 5, thinking off) scored published reference answers 0.7 to 6.3 points above their official scores (grader-check.json).",
+  "replay": "Answers come from a replay of Panda's product code (private revision 3cedbb0d) calling Workers AI and Vertex AI directly; live/ pairs a sample answered through Panda's public API.",
+  "retries": "Answers that lost a call to a provider error after 4 attempts were sent again after the main pass (rows_written > 1); failures the models caused were kept."
+ }
+}
