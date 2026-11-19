@@ -1,0 +1,212 @@
+{
+ "auto": {
+  "score": 74.28912852282508,
+  "accuracy": 0.7428912852282508,
+  "n": 809,
+  "points": 600.9990497496549,
+  "n_failed_answers": 0,
+  "n_failed_judge_calls": 0,
+  "n_code_sandbox_errors": 0,
+  "n_code_ungraded": 0,
+  "n_code_failed_third_party_import": 0,
+  "n_math_unresolved": 4,
+  "by_metric": {
+   "chess_accuracy": {
+    "n": 13,
+    "score": 30.76923076923077
+   },
+   "code_accuracy": {
+    "n": 38,
+    "score": 81.57894736842105
+   },
+   "exact_match": {
+    "n": 62,
+    "score": 37.096774193548384
+   },
+   "math_metric": {
+    "n": 24,
+    "score": 66.66666666666667
+   },
+   "mcq_accuracy": {
+    "n": 565,
+    "score": 82.65486725663717
+   },
+   "meteor_score": {
+    "n": 70,
+    "score": 55.71292821379277
+   },
+   "superglue_clozetest": {
+    "n": 5,
+    "score": 0.0
+   },
+   "superglue_exact_match": {
+    "n": 32,
+    "score": 65.625
+   }
+  },
+  "by_dataset": {
+   "AIME": {
+    "n": 3,
+    "score": 100.0
+   },
+   "AsDiv": {
+    "n": 7,
+    "score": 57.142857142857146
+   },
+   "ChessInstruct": {
+    "n": 13,
+    "score": 30.76923076923077
+   },
+   "Ethics_commonsense": {
+    "n": 25,
+    "score": 76.0
+   },
+   "FinQA": {
+    "n": 7,
+    "score": 42.857142857142854
+   },
+   "GSM8K": {
+    "n": 2,
+    "score": 50.0
+   },
+   "GeoBench": {
+    "n": 30,
+    "score": 90.0
+   },
+   "GeoGraphyData_100k": {
+    "n": 4,
+    "score": 100.0
+   },
+   "LiveCodeBench": {
+    "n": 38,
+    "score": 81.57894736842105
+   },
+   "MATH": {
+    "n": 5,
+    "score": 100.0
+   },
+   "MMLU": {
+    "n": 19,
+    "score": 89.47368421052632
+   },
+   "MMLUPro": {
+    "n": 275,
+    "score": 80.72727272727273
+   },
+   "MathQA": {
+    "n": 15,
+    "score": 66.66666666666667
+   },
+   "MedMCQA": {
+    "n": 29,
+    "score": 72.41379310344827
+   },
+   "MusicTheoryBench": {
+    "n": 20,
+    "score": 55.0
+   },
+   "NarrativeQA": {
+    "n": 39,
+    "score": 52.78304637378971
+   },
+   "OpenTDB": {
+    "n": 97,
+    "score": 95.87628865979381
+   },
+   "PubMedQA": {
+    "n": 46,
+    "score": 86.95652173913044
+   },
+   "QANTA": {
+    "n": 58,
+    "score": 32.758620689655174
+   },
+   "SocialiQA": {
+    "n": 7,
+    "score": 71.42857142857143
+   },
+   "SuperGLUE-CausalReasoning": {
+    "n": 2,
+    "score": 100.0
+   },
+   "SuperGLUE-ClozeTest": {
+    "n": 5,
+    "score": 0.0
+   },
+   "SuperGLUE-Entailment": {
+    "n": 6,
+    "score": 100.0
+   },
+   "SuperGLUE-QA": {
+    "n": 7,
+    "score": 42.857142857142854
+   },
+   "SuperGLUE-RC": {
+    "n": 6,
+    "score": 33.333333333333336
+   },
+   "SuperGLUE-Wic": {
+    "n": 10,
+    "score": 70.0
+   },
+   "SuperGLUE-Wsc": {
+    "n": 3,
+    "score": 100.0
+   },
+   "WMT19-cs-en": {
+    "n": 3,
+    "score": 41.84146287435761
+   },
+   "WMT19-de-en": {
+    "n": 7,
+    "score": 69.01073931554359
+   },
+   "WMT19-fi-en": {
+    "n": 2,
+    "score": 38.6
+   },
+   "WMT19-gu-en": {
+    "n": 10,
+    "score": 73.12499539315593
+   },
+   "WMT19-kk-en": {
+    "n": 2,
+    "score": 30.041335978835974
+   },
+   "WMT19-lt-en": {
+    "n": 3,
+    "score": 27.662318188633975
+   },
+   "WMT19-ru-en": {
+    "n": 1,
+    "score": 89.296875
+   },
+   "WMT19-zh-en": {
+    "n": 3,
+    "score": 63.983382366894794
+   }
+  },
+  "complete": true,
+  "items": 809,
+  "graded": 809,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 0.2186,
+  "list_usd_per_item": 0.00027,
+  "retail_usd_total": 8.13,
+  "retail_usd_per_item": 0.01,
+  "service_seconds_median": 2.65,
+  "service_seconds_p90": 5.51,
+  "service_samples": 809,
+  "statuses": {
+   "completed": 809
+  },
+  "first_attempt_trouble": 5,
+  "routes": {
+   "deepseek-v4.1-flash": 712,
+   "glm-5.3": 37,
+   "glm-5.3-flash": 60
+  }
+ }
+}

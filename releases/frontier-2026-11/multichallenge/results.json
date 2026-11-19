@@ -1,0 +1,633 @@
+{
+ "auto": {
+  "score": 59.55204593804015,
+  "ci95": 6.260186732491866,
+  "axes": {
+   "INSTRUCTION_RETENTION": {
+    "n": 69,
+    "passed": 48,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 69.56521739130434
+   },
+   "INFERENCE_MEMORY": {
+    "n": 109,
+    "passed": 78,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 71.55963302752293
+   },
+   "RELIABLE_VERSION_EDITING": {
+    "n": 40,
+    "passed": 18,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 45.0
+   },
+   "SELF_COHERENCE": {
+    "n": 48,
+    "passed": 25,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 52.083333333333336
+   }
+  },
+  "n": 266,
+  "passed": 169,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "complete": true,
+  "items": 266,
+  "graded": 266,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 0.3336,
+  "list_usd_per_item": 0.001254,
+  "retail_usd_total": 2.68,
+  "retail_usd_per_item": 0.0101,
+  "service_seconds_median": 7.24,
+  "service_seconds_p90": 12.28,
+  "service_samples": 266,
+  "statuses": {
+   "completed": 266
+  },
+  "first_attempt_trouble": 1,
+  "routes": {
+   "glm-5.3": 31,
+   "glm-5.3-flash": 105,
+   "deepseek-v4.1-flash": 130
+  }
+ },
+ "auto:quality": {
+  "score": 70.16761401409387,
+  "ci95": 5.979805503356706,
+  "axes": {
+   "INSTRUCTION_RETENTION": {
+    "n": 69,
+    "passed": 49,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 71.01449275362319
+   },
+   "INFERENCE_MEMORY": {
+    "n": 109,
+    "passed": 95,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 87.1559633027523
+   },
+   "RELIABLE_VERSION_EDITING": {
+    "n": 40,
+    "passed": 24,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 60.0
+   },
+   "SELF_COHERENCE": {
+    "n": 48,
+    "passed": 30,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 62.5
+   }
+  },
+  "n": 266,
+  "passed": 198,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "complete": true,
+  "items": 266,
+  "graded": 266,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 5.0836,
+  "list_usd_per_item": 0.019111,
+  "retail_usd_total": 7.68,
+  "retail_usd_per_item": 0.0289,
+  "service_seconds_median": 21.05,
+  "service_seconds_p90": 84.39,
+  "service_samples": 266,
+  "statuses": {
+   "completed": 266
+  },
+  "first_attempt_trouble": 8,
+  "routes": {
+   "panel:panda-quality": 114,
+   "gemini-4-argon": 152
+  },
+  "panel_modes": {
+   "synthesis": 114
+  }
+ },
+ "control:deepseek-self-merge": {
+  "score": 61.1701818242255,
+  "ci95": 6.289528052763093,
+  "axes": {
+   "INSTRUCTION_RETENTION": {
+    "n": 69,
+    "passed": 42,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 60.869565217391305
+   },
+   "INFERENCE_MEMORY": {
+    "n": 109,
+    "passed": 80,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 73.39449541284404
+   },
+   "RELIABLE_VERSION_EDITING": {
+    "n": 40,
+    "passed": 20,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 50.0
+   },
+   "SELF_COHERENCE": {
+    "n": 48,
+    "passed": 29,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 60.416666666666664
+   }
+  },
+  "n": 266,
+  "passed": 171,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "complete": true,
+  "items": 266,
+  "graded": 266,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 1.0536,
+  "list_usd_per_item": 0.003961,
+  "retail_usd_total": 2.71,
+  "retail_usd_per_item": 0.0102,
+  "service_seconds_median": 11.46,
+  "service_seconds_p90": 18.25,
+  "service_samples": 266,
+  "statuses": {
+   "completed": 266
+  },
+  "first_attempt_trouble": 6,
+  "panel_modes": {
+   "synthesis": 266
+  }
+ },
+ "deepseek-v4.1-flash": {
+  "score": 57.76280581039755,
+  "ci95": 6.291338284989946,
+  "axes": {
+   "INSTRUCTION_RETENTION": {
+    "n": 69,
+    "passed": 46,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 66.66666666666667
+   },
+   "INFERENCE_MEMORY": {
+    "n": 109,
+    "passed": 67,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 61.46788990825688
+   },
+   "RELIABLE_VERSION_EDITING": {
+    "n": 40,
+    "passed": 17,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 42.5
+   },
+   "SELF_COHERENCE": {
+    "n": 48,
+    "passed": 29,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 60.416666666666664
+   }
+  },
+  "n": 266,
+  "passed": 159,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "complete": true,
+  "items": 266,
+  "graded": 266,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 0.3035,
+  "list_usd_per_item": 0.001141,
+  "retail_usd_total": 2.66,
+  "retail_usd_per_item": 0.01,
+  "service_seconds_median": 5.77,
+  "service_seconds_p90": 9.64,
+  "service_samples": 266,
+  "statuses": {
+   "completed": 266
+  },
+  "first_attempt_trouble": 5
+ },
+ "gemini-3.8-flash": {
+  "score": 69.69111487834066,
+  "ci95": 5.988115207795719,
+  "axes": {
+   "INSTRUCTION_RETENTION": {
+    "n": 69,
+    "passed": 52,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 75.3623188405797
+   },
+   "INFERENCE_MEMORY": {
+    "n": 109,
+    "passed": 90,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 82.56880733944953
+   },
+   "RELIABLE_VERSION_EDITING": {
+    "n": 40,
+    "passed": 25,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 62.5
+   },
+   "SELF_COHERENCE": {
+    "n": 48,
+    "passed": 28,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 58.333333333333336
+   }
+  },
+  "n": 266,
+  "passed": 195,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "complete": true,
+  "items": 266,
+  "graded": 266,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 1.9859,
+  "list_usd_per_item": 0.007466,
+  "retail_usd_total": 3.31,
+  "retail_usd_per_item": 0.0124,
+  "service_seconds_median": 8.35,
+  "service_seconds_p90": 25.18,
+  "service_samples": 266,
+  "statuses": {
+   "completed": 266
+  },
+  "first_attempt_trouble": 0
+ },
+ "gemini-4-argon": {
+  "score": 73.55400711341578,
+  "ci95": 5.793616974954693,
+  "axes": {
+   "INSTRUCTION_RETENTION": {
+    "n": 69,
+    "passed": 53,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 76.81159420289855
+   },
+   "INFERENCE_MEMORY": {
+    "n": 109,
+    "passed": 93,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 85.3211009174312
+   },
+   "RELIABLE_VERSION_EDITING": {
+    "n": 40,
+    "passed": 27,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 67.5
+   },
+   "SELF_COHERENCE": {
+    "n": 48,
+    "passed": 31,
+    "failed_answers": 1,
+    "failed_judge_calls": 0,
+    "score": 64.58333333333333
+   }
+  },
+  "n": 266,
+  "passed": 204,
+  "failed_answers": 1,
+  "failed_judge_calls": 0,
+  "complete": true,
+  "items": 266,
+  "graded": 266,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 5.7442,
+  "list_usd_per_item": 0.021595,
+  "retail_usd_total": 8.54,
+  "retail_usd_per_item": 0.0321,
+  "service_seconds_median": 21.09,
+  "service_seconds_p90": 80.3,
+  "service_samples": 266,
+  "statuses": {
+   "completed": 265,
+   "failed": 1
+  },
+  "first_attempt_trouble": 5
+ },
+ "glm-5.3": {
+  "score": 57.590039555910124,
+  "ci95": 6.337914859538035,
+  "axes": {
+   "INSTRUCTION_RETENTION": {
+    "n": 69,
+    "passed": 40,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 57.971014492753625
+   },
+   "INFERENCE_MEMORY": {
+    "n": 109,
+    "passed": 73,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 66.97247706422019
+   },
+   "RELIABLE_VERSION_EDITING": {
+    "n": 40,
+    "passed": 18,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 45.0
+   },
+   "SELF_COHERENCE": {
+    "n": 48,
+    "passed": 29,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 60.416666666666664
+   }
+  },
+  "n": 266,
+  "passed": 160,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "complete": true,
+  "items": 266,
+  "graded": 266,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 1.2005,
+  "list_usd_per_item": 0.004513,
+  "retail_usd_total": 2.78,
+  "retail_usd_per_item": 0.0105,
+  "service_seconds_median": 4.64,
+  "service_seconds_p90": 7.85,
+  "service_samples": 266,
+  "statuses": {
+   "completed": 266
+  },
+  "first_attempt_trouble": 0
+ },
+ "glm-5.3-flash": {
+  "score": 56.46880401542348,
+  "ci95": 6.34875087859688,
+  "axes": {
+   "INSTRUCTION_RETENTION": {
+    "n": 69,
+    "passed": 38,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 55.072463768115945
+   },
+   "INFERENCE_MEMORY": {
+    "n": 109,
+    "passed": 69,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 63.30275229357798
+   },
+   "RELIABLE_VERSION_EDITING": {
+    "n": 40,
+    "passed": 18,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 45.0
+   },
+   "SELF_COHERENCE": {
+    "n": 48,
+    "passed": 30,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 62.5
+   }
+  },
+  "n": 266,
+  "passed": 155,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "complete": true,
+  "items": 266,
+  "graded": 266,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 0.1311,
+  "list_usd_per_item": 0.000493,
+  "retail_usd_total": 2.66,
+  "retail_usd_per_item": 0.01,
+  "service_seconds_median": 6.72,
+  "service_seconds_p90": 13.38,
+  "service_samples": 266,
+  "statuses": {
+   "completed": 266
+  },
+  "first_attempt_trouble": 2
+ },
+ "panel:panda": {
+  "score": 62.45412844036697,
+  "ci95": 6.188319492343992,
+  "axes": {
+   "INSTRUCTION_RETENTION": {
+    "n": 69,
+    "passed": 46,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 66.66666666666667
+   },
+   "INFERENCE_MEMORY": {
+    "n": 109,
+    "passed": 87,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 79.81651376146789
+   },
+   "RELIABLE_VERSION_EDITING": {
+    "n": 40,
+    "passed": 18,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 45.0
+   },
+   "SELF_COHERENCE": {
+    "n": 48,
+    "passed": 28,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 58.333333333333336
+   }
+  },
+  "n": 266,
+  "passed": 179,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "complete": true,
+  "items": 266,
+  "graded": 266,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 2.7819,
+  "list_usd_per_item": 0.010458,
+  "retail_usd_total": 4.31,
+  "retail_usd_per_item": 0.0162,
+  "service_seconds_median": 14.45,
+  "service_seconds_p90": 43.69,
+  "service_samples": 266,
+  "statuses": {
+   "completed": 266
+  },
+  "first_attempt_trouble": 3,
+  "panel_modes": {
+   "synthesis": 266
+  }
+ },
+ "panel:panda-quality": {
+  "score": 66.65411846828879,
+  "ci95": 6.139246857580779,
+  "axes": {
+   "INSTRUCTION_RETENTION": {
+    "n": 69,
+    "passed": 45,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 65.21739130434783
+   },
+   "INFERENCE_MEMORY": {
+    "n": 109,
+    "passed": 86,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 78.89908256880734
+   },
+   "RELIABLE_VERSION_EDITING": {
+    "n": 40,
+    "passed": 24,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 60.0
+   },
+   "SELF_COHERENCE": {
+    "n": 48,
+    "passed": 30,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 62.5
+   }
+  },
+  "n": 266,
+  "passed": 185,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "complete": true,
+  "items": 266,
+  "graded": 266,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 4.2292,
+  "list_usd_per_item": 0.015899,
+  "retail_usd_total": 6.4,
+  "retail_usd_per_item": 0.0241,
+  "service_seconds_median": 14.69,
+  "service_seconds_p90": 47.86,
+  "service_samples": 266,
+  "statuses": {
+   "completed": 266
+  },
+  "first_attempt_trouble": 3,
+  "panel_modes": {
+   "synthesis": 266
+  }
+ },
+ "panel:trio-glm": {
+  "score": 67.42662212471745,
+  "ci95": 6.068990551962631,
+  "axes": {
+   "INSTRUCTION_RETENTION": {
+    "n": 69,
+    "passed": 40,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 57.971014492753625
+   },
+   "INFERENCE_MEMORY": {
+    "n": 109,
+    "passed": 90,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 82.56880733944953
+   },
+   "RELIABLE_VERSION_EDITING": {
+    "n": 40,
+    "passed": 25,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 62.5
+   },
+   "SELF_COHERENCE": {
+    "n": 48,
+    "passed": 32,
+    "failed_answers": 0,
+    "failed_judge_calls": 0,
+    "score": 66.66666666666667
+   }
+  },
+  "n": 266,
+  "passed": 187,
+  "failed_answers": 0,
+  "failed_judge_calls": 0,
+  "complete": true,
+  "items": 266,
+  "graded": 266,
+  "not_answered": 0,
+  "pending_judge": 0,
+  "items_with_failed_judge_calls": 0,
+  "list_usd_total": 4.5904,
+  "list_usd_per_item": 0.017257,
+  "retail_usd_total": 6.97,
+  "retail_usd_per_item": 0.0262,
+  "service_seconds_median": 16.05,
+  "service_seconds_p90": 36.48,
+  "service_samples": 266,
+  "statuses": {
+   "completed": 265,
+   "partial": 1
+  },
+  "first_attempt_trouble": 6,
+  "panel_modes": {
+   "synthesis": 266
+  }
+ }
+}
