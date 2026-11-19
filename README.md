@@ -1,5 +1,7 @@
 # Panda Bench
 
+**New: [Frontier comparison, November 2026](docs/frontier/README.md).** Panda's single models, Panels and routers on HealthBench Professional, MultiChallenge, SimpleQA Verified, GPQA Diamond and RouterArena, next to frontier labs' published rows. Check its arithmetic offline with `python -m panda_bench.frontier check-release releases/frontier-2026-11`.
+
 Recompute the published stage 2–4 arithmetic, regrade the archived answers, or run a new three-model experiment through Panda. The releases contain 4,774 answer records and 32 displayed result rows. They contain no dataset prompt bodies.
 
 ## Start with the free check

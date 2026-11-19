@@ -1,0 +1,163 @@
+# Frontier benchmarks, Nov 2026: running log of learnings
+
+The running log kept during the run, published as written except for account details (key locations, balances, credits and cloud project names).
+
+## Choosing benchmarks (2026-11-18)
+
+- **Neutral boards do not list a Panel or router built on other labs' models today.**
+  - arena.ai: only "first-party foundation models".
+  - ARC Prize verified testing: commercial APIs only above $10M a month in revenue.
+  - Artificial Analysis: picks whom it tests, and about 70% of its index needs tool calling.
+  - Epoch AI: runs only the main labs' models.
+  - Scale SEAL: an email door, with no stated rules for systems.
+  - Vals Router Index: invites routers, but needs tool calling.
+  - RouterArena (ICLR 2026): accepts commercial routers that pick one model per query.
+- **2026 launch tables are agentic.** Terminal-Bench 4, HLE with tools, OSWorld, AutomationBench and DeepSWE are what labs report. The classic static sets (MMLU-Pro, AIME, GPQA, LiveCodeBench) left Artificial Analysis's index and Western launch tables during 2026.
+- **A same-scale comparison needs the official data, prompt, grader and settings.**
+  - Several official judges are retired: o3-mini (HLE), GPT-4-0613 (MT-Bench) and GPT-4 Turbo (AlpacaEval). Gemini 2.5 Pro (Scale's MultiChallenge judge) returns 404 on our Vertex project, so it is gone for us.
+  - OpenAI-graded tests (SimpleQA Verified, HealthBench) need an OpenAI key.
+  - We use Claude Sonnet 5 as a stand-in judge, and measure its offset against published rows of models we also run (Argon, DeepSeek V4.1 Flash).
+- **Dropped:**
+  - IFBench: Artificial Analysis stopped scoring new frontier models on it in July 2026.
+  - MathArena: now an agent setup with code tools and 12-hour attempts.
+  - HLE-Diamond: our cheap setups score 7–25 at Panda's thinking settings, against a frontier of 68–80, at about $300–550.
+
+## Running (2026-11-18)
+
+- **Panda's API runs at most 2 requests at a time per workspace**, so thousands of Panel and router runs through it would take days.
+  - We replay the product instead. Panda's own code builds each provider body (`product_text_inputs`), parses each answer, and runs the Panel draft order, combiner prompt and bounds and the router. Only the transport differs: Workers AI REST and Vertex directly.
+  - A live-API sample checks agreement.
+- **Workers AI caps each paid model at 20 requests per minute for the whole Cloudflare account, production included.** The run paces DeepSeek, GLM-5.3 and GLM-5.3 Flash at 8–12 per minute, editable live through `rpm.json`.
+- **Router embedding latency.** The router's EmbeddingGemma 2 call from a Mac takes 0.3–1.9 s, while production gives it 1 s from inside Cloudflare. The replay allows 5 s, so `auto` here is the router with its classification always available. Production misses some classifications and then uses the mode's default model.
+- **GLM-5.3 Flash's product output bound is 4,096**, so with `max_tokens` 16,384 it still stops at 4,096. Workers AI retires it on 2026-11-20, so the setups that use it run first.
+- **Claude Sonnet 5 rejects `temperature`.** Its API answers "`temperature` is deprecated for this model". The first pilot judge batch errored on all 21 requests; errored batch requests are free. The judge now samples at its default.
+- **The Panda API key for the live check** allows only the five models these setups use and expires after 90 days; it is revoked after the run. The live sample is kept small.
+- **Pilot costs per answer on HealthBench Professional:** DeepSeek V4.1 Flash about $0.001, `panel:panda` about $0.009 and `auto:quality` (routed to `panda-quality`) about $0.015. Wall time p50 is 5 s single, 17 s Panel and 16–51 s `auto:quality`.
+- **Harness fault, caught and fixed 2026-11-18 16:02Z.**
+  - The first `auto` replay embedded the routing text inside the router's 5 s deadline. With many `auto` tasks starting at once, our own per-model pacing queued the embedding past the deadline: 41 of the first 99 rows were "missed", so they took the mode's default model.
+  - Fix: embed first, outside the deadline, then route with that embedding of the same `routing_text`.
+  - The 41 rows were marked `harness_error` and redone.
+  - Lesson: never let harness pacing sit inside a product timeout.
+- **Gemini 4 Argon refused a HealthBench Professional prompt outright** (`gemini_prompt_blocked`, Vertex default safety settings). This is product behavior: a Panda user would get a refusal. It is counted as a failed answer and listed in the results.
+- **MultiChallenge has a newer public set than the feasibility notes found.** Scale's board links Hugging Face `ScaleAI/MultiChallenge` (created 2026-03-31; 266 conversations; CC BY 4.0).
+  - It is the GitHub set (273) with 47 rubric questions rewritten and 7 conversations removed, so 47 + 7 = 54, the board's "54 revised tasks".
+  - We score that set. The GitHub set and its stored 2024 responses serve only the grader check.
+- **The GPQA and SimpleQA modules were checked against the official code.**
+  - GPQA: Inspect's own parser and prompt agreed with ours on 600,033 synthetic replies.
+  - SimpleQA: the Kaggle notebook's own cells gave the same filled prompts and F1 over 2,000 random grade sets.
+- **Denominator rule for the release:** zero `harness_error` rows and zero pending judge calls, so every board-comparable `n` equals the full item count. A failed answer is graded as the boards grade it (wrong, or not attempted).
+- **Grader check 1 (Claude Sonnet 5 at default settings, 2026-11-18).**
+  - HealthBench Professional physician answers scored 46.66 against the paper's 43.7, so +3.0. 11 of 1,135 replies hit `max_tokens` 1,024, some with no text: Sonnet 5's default thinking used the budget.
+  - MultiChallenge: 278 of 819 replies put prose before the JSON object (the official judge's structured output never did), and 28 ended with a prose "Verdict: YES/NO", which is what the official prompt itself asks for.
+  - After reading both forms, the offsets against the paper's GPT-4o judge were Mixtral +2.6, Llama-3.3-70B +4.7 and o1-preview −2.5, with the rank order kept.
+- **Final judge settings: Claude Sonnet 5, thinking disabled, default temperature.** The settings are part of each judge request id, so changing them re-judges everything. The grader check was rerun under these settings before any main judging.
+- **Lesson:** a stand-in judge must be checked on answers with published official scores *and* on its reply format. Reply-format failures look like low scores.
+- **Grader check 2 (final settings, 2026-11-18 ~16:25Z).** Every main-run score carries these offsets.
+  - MultiChallenge against the paper's GPT-4o judge:
+    - o1-preview 35.63 vs 35.73 (98 vs 98 passes, exact);
+    - Mixtral-8x7B 13.52 vs 11.08 (+2.4);
+    - Llama-3.3-70B 29.50 vs 23.19 (+6.3);
+    - 1–3 failed judge calls per 273.
+  - HealthBench Professional physician answers: 46.77 vs 43.7 (+3.1), with 0 failed judge calls.
+  - Claude is equal or more generous, by about 0–6 points, and keeps the rank order.
+- **Independent review by Codex (GPT-6.2 Astra), 2026-11-18 ~16:10Z: "hold the paid run", 18 findings.** Fixed before any main-run judging:
+  - Replay now uses the product's own call verdicts. A served content refusal of the combiner fails the Panel (`answer_refused` is not a stand-in code), and a definite 4xx refusal lets the strongest member stand in. It also applies the combiner's byte budget (`input_too_large`) and treats an answer without usage as unknown. Panel status is partial whenever a member is missing.
+  - Judge ids now bind the judge settings and a digest of the exact answer, so a replaced answer is never graded by an older reply.
+  - Requests in an open batch are not sent again, batch creates have no SDK retries, and collection keeps only the batch's own ids.
+  - Unusable judge replies are re-sent, up to 3 attempts. Scores are marked complete only with full coverage and no pending or failed judge calls.
+  - JSONL readers split only on "\n". `str.splitlines` breaks on U+2028 inside answer text.
+  - Cost is counted on every final row, as list price and as Panda's retail price (×3/2, rounded once, at least 1¢). Latency uses the median and a nearest-rank p90.
+  - A frozen run plan (`plan.jsonl`) records setups, dataset pins, the judge and code revisions at every start.
+  - A reconcile pass found 0 earlier rows that production would have handled differently.
+- **Documented, not changed:**
+  - `auto` here always has its classification (production: 1 s single attempt, about 87% classified in live check 3).
+  - Retries of our own load's 429s; first-attempt outcomes are recorded.
+  - One process at a time.
+  - One pass, where AA uses 4 repeats on HealthBench.
+  - The self-merge control is research-only, since production needs distinct Panel members.
+- **Live sample design (fixed before any call):**
+  - Contents: 8 items per benchmark, chosen by a seeded hash of item ids, the same items for every setup. Setups: `panel:panda`, `panel:panda-quality`, `auto` and `auto:quality`, sent item by item, 2 at a time.
+  - Every request carries an idempotency key. A lost answer is recorded as lost, never resent. The charge cap is $3.50.
+  - The first live call (GPQA, `auto`) cost 1¢, and production's router "missed" its 1 s embedding deadline and answered with the default model. This is the production behavior the replay's always-classified router does not show; the live sample measures how often it happens.
+- **RouterArena (sub_10, 809 queries) joined the run at ~16:45Z, for `auto` only.**
+  - Its prompts are byte-identical to RouterArena's published predictions. Its scorers were checked against 24 re-graded submissions: non-math 17,918/17,918 rows, math 575/576, code 125/128.
+  - Code answers run in a pinned `python:3.12-slim` container with no network.
+  - sub_10 is easier than the full split, so compare against sub_10 rows: Azure Model Router 75.78%, Corealis (the same three models via OpenRouter) 77.28%, Divyam 83.54%.
+  - RouterArena prices DeepSeek V4.1 Flash at $0.21/$0.84 (as charged, from 2026-11-16) against Panda's list $0.30/$1.20.
+  - A submission PR would need `z-ai/glm-5.3` in their model names, an EmbeddingGemma 2 price entry (otherwise charged at their maximum), and the 420-query robustness file.
+- **EmbeddingGemma 2 capacity (2026-11-18 16:45Z).** Workers AI answered `429` code 3040 ("capacity temporarily exceeded") on about 30% of first embedding attempts at our 60 per minute. 11 `auto` rows failed all 4 attempts, so they were "missed" and took the mode's default model.
+  - Production's router calls the same model with one attempt in 1 s, so capacity refusals are a plausible source of its missed classifications. Its live check 3 classified 21 of 24, and our first live call missed.
+  - We lowered our embedding pace to 20 per minute to leave capacity for production. The 11 missed rows are redone at the end, with the generator stopped: a second writer must never append while it runs.
+  - Product follow-up to consider: retry a 3040 once within the deadline, or move the router to an embedding model with capacity headroom.
+- **Pace change, 2026-11-18 ~16:55Z.**
+  - At 10/8/8 per minute, DeepSeek had about 13,500 calls left: roughly 25 h, since DeepSeek appears in most setups (the Panel combiner, the self-merge control and `auto`'s main pick).
+  - Raised DeepSeek to 16, GLM-5.3 to 14 and GLM-5.3 Flash to 14 per minute: about 14 h. That leaves about 4 per minute of the account's 20 for production, with an instant back-off on any 429.
+  - The faster alternatives were declined: Cloudflare's 300/min raise (requested 11-17, no reply seen), or another DeepSeek host (fidelity caveat).
+- **Live sample results (2026-11-18 ~16:57Z):** 127 requests (one GPQA `auto` row was the earlier test) cost $2.14 at Panda's retail prices.
+  - Production's router classified 53 of 64 `auto`/`auto:quality` requests (83%) and missed 11, which then took the mode's default model.
+  - Panels completed 62 of 64 and were partial on 2. `auto:quality` failed 3 of 32.
+  - The live answers are graded by the same judge and paired with the replay's answers on the same items.
+- **GLM-5.3 Flash runs out of room on GPQA** (2026-11-18 17:08Z): 7 of its first GPQA answers were `answer_incomplete`. It reasoned past its 4,096-token product bound and wrote no text, which the product answers as a 502 and the board scores as wrong. The 4,096 bound is the product's own for this model (`product_output_bound`), so this is how Panda serves it.
+- **18:33Z: DeepSeek hit Workers AI's per-minute cap (3 × `429` code 3021)** with our 16/min plus production. We lowered our share to 14/min, leaving 6/min of the account's 20 for production.
+- 18:38Z: 5 more DeepSeek 3021s at 14/min; lowered to 12/min (production likely busier now).
+- 18:55Z: other traffic on the Cloudflare account stopped, which freed headroom. Raised DeepSeek to 18/min and GLM-5.3 to 16/min; GLM-5.3 Flash stays at 12 because its refusals are capacity (3040), not the cap.
+- **Worker starvation, fixed 18:57Z.** With 260 workers, most threads waited in DeepSeek's limiter, so the other models ran far below their caps (GLM-5.3 at 6/min of 16, Gemini Flash at 6 of 60, Argon at 4 of 30). Restarted with 900 workers so every model's queue stays fed.
+  - The 12 rows whose router embedding failed all attempts on 3040 capacity were marked and redone, with the generator stopped.
+- **Queue order was the real bottleneck (19:03Z).** Sorting every GLM-5.3 Flash task first meant the 900 workers all waited on GLM-5.3 Flash (12/min) and the router embedding (20/min). DeepSeek, GLM-5.3 and Gemini stayed far under their limits.
+  - The priority sort was removed and the queue fully shuffled. GLM-5.3 Flash's remaining ~2,700 calls still take only about 4 h at its own limit, well before the 2026-11-20 retirement.
+  - Lesson: with per-model limiters, keep the task mix shuffled so no single model's queue can starve the pool.
+- **Monitoring log.** Every 5-minute check appends its summary to `runs/main/monitor.jsonl`: progress, statuses, new trouble by model and code, the paces and the last judge submission. Run-level logs: `generate.log` (progress every 25 answers, start and end lines), `plan.jsonl` (the frozen design at each start), `judge/batches.jsonl` (every judge batch and its requests) and `rpm.json` (the live paces).
+- **One worker pool per bottleneck (19:38Z).** Even shuffled, a single pool drifts back to starvation. A task waiting in DeepSeek's limiter holds its worker for minutes while a Gemini task takes seconds, so by Little's law the in-flight mix fills with DeepSeek waiters. At 19:35Z: 22 answers/min, with Gemini Flash 9.6/min and Argon 3.6/min against limits of 60/30, and 3,400 single-model Vertex answers left.
+  - Now each setup goes to a pool by the scarcest model it waits on: deepseek, glm, glm-flash, vertex or auto-quality. Pool sizes are shares of `--workers`.
+  - The end time is still set by DeepSeek's account limit, about 12,000 calls at 18/min, roughly 11 h.
+- 19:50Z: Vertex returned 4 × 429 (quota) and 6 timeouts for Gemini 4 Argon at 30/min under the new Vertex pool; lowered Argon to 24/min.
+- 19:59Z: Argon still drew 5 × 429 at 24/min, so lowered to 18/min. Vertex's limit for Gemini 4 Argon on our project sits near 20 requests/min, or a tokens-per-minute quota at these long answers.
+- Failure census at 20:13Z (31 in all, every one a product behavior): GLM-5.3 Flash ran out of reasoning room on GPQA (25); Gemini prompt blocks on HealthBench (2 Argon, 1 Gemini 3.8 Flash); Argon's recitation filter on one MultiChallenge item (`gemini_recitation`); and single out-of-room cases for GLM-5.3 on GPQA and GLM-5.3 Flash on HealthBench.
+- Judge spend at 20:23Z: $41.97 actual over 12,174 judge replies ($0.0034 each, Batch pricing, grader checks and the live sample included). About 15,700 main-run requests remain, roughly $53, so the total is about $100.
+- 20:51Z: Argon returned 10 timeouts at the product's 240 s deadline and 3 × 429 in five minutes; lowered to 14/min. Timed-out calls are retried, and the first-attempt trouble is reported.
+- Argon latency (20:57Z, 2,897 successful calls): p50 18 s, p90 107 s, p99 210 s; 40 calls took over 200 s against the product's 240 s deadline. About 2.2% of first attempts timed out (36 of them short SimpleQA questions, which suggests Vertex queueing under our load) and succeeded on retry. Production would have shown those as errors, so first-attempt trouble is reported per setup.
+- 21:25Z: GLM-5.3 Flash work is complete, before its 2026-11-20 retirement. Vertex is nearly done. About 10,250 DeepSeek calls remain, so the end is set by DeepSeek's 18/min: about 9.5 h, ~06:55Z on 2026-11-19.
+- 22:07Z: DeepSeek capacity refusals (3040, not the per-minute cap) rose to 5 per check. Lowered our pace to 16/min to ease pressure; production's DeepSeek calls get capacity refusals too.
+- 22:17Z: Cloudflare's DeepSeek V4.1 Flash capacity tightened. 3040 refusals reached 8 per check and throughput fell to about 5 answers/min, because each refusal pauses the model 30–120 s. Lowered to 14/min. This is a provider-side capacity squeeze that production's DeepSeek calls (the default review model) would also hit.
+- 22:22Z: DeepSeek capacity refusals jumped to 16 per check at 14/min, so we eased to 10/min.
+- 22:46Z: In 15 min of the squeeze, 110 of 136 DeepSeek calls succeeded on the first try and 26 after 1–3 capacity retries. Our own pace was the limit, not the refusals: the refusal count stayed flat whether we sent 10/min or 14/min, because it is Cloudflare-wide capacity. Set 12/min as a middle ground.
+- **23:10Z: pause only on rate-limit refusals.** Every 429 had paused the whole model for 30–120 s. Under Cloudflare's DeepSeek capacity squeeze (3040, about 2–16 per 5 min) DeepSeek sat paused most of the time, at about 5 answers/min, even with only 2 refusals in a window.
+  - Now only per-minute-limit refusals (3021, Vertex quota 429) pause the model. A capacity refusal makes just that call wait 5–20 s, within the same 12/min pace.
+- 23:19Z: no DeepSeek capacity refusals for 10 minutes after the squeeze, so we raised DeepSeek back to 16/min.
+- 23:52Z: 25 min with no DeepSeek refusals at 16/min; raised to 18/min while production is quiet. The loop lowers it again on any 3021.
+- 05:49Z: GLM-5.3 Flash is failing on its last day before the 2026-11-20 retirement: 13 × 500, 6 × 503 and one capacity refusal in 5 minutes. Only `auto`'s picks still reach it, at about 2 calls/min against its 10/min pace, so our load is not the cause. 3 `auto` answers (2 MultiChallenge, 1 RouterArena) failed after all 4 attempts. Every call in them ended in an error, so they count as transient and the `--retry-failed` pass after the main run redoes them while the model is still served. Production `auto` runs the same router code and can still pick GLM-5.3 Flash.
+- **05:58Z: a Panel that loses a member to a provider outage is redone too.** GLM-5.3 Flash failed about half its calls in 10 minutes (10 of 19 after all retries). The trio Panel (GLM-5.3 Flash + DeepSeek + Gemini Flash) is still running in the DeepSeek pool, so 8 trio answers came back partial, combined from 2 drafts. Production would have served the same 2-draft answers during the outage, but a Panel's score should measure its design, not one provider's last-day outage, so these are graded like any other API error that a board retries.
+  - `--retry-failed` now also sends again any Panel answer that lost a call to a transport error, timeout or rate limit after its retries (`run._transient`, tests in `tests/frontier/test_run.py`). Members lost to the model itself (out of room, prompt blocked) stay as they are.
+  - The raw answers file keeps every first-pass row, so the redone rows are counted in the release, and first-attempt trouble is still reported per setup.
+- 06:13–06:17Z: GLM-5.3 Flash's trouble is intermittent, not over. All 10 calls in 5 minutes answered on the first try at 06:13Z, then 4 server errors came back by 06:17Z. Since 05:40Z it has left 3 failed `auto` answers and about 22 partial trio Panels for the retry pass.
+- **06:45Z: release writer rebuilt (Codex findings 14 and 15).** The release now:
+  - reads the design frozen in `plan.jsonl` and refuses a run whose design changed between its 6 starts (it did not), a pilot start, a setup outside the plan or an unknown item;
+  - recomputes grades and scores from the answers and judge replies, instead of copying files that may be stale;
+  - publishes only allowlisted fields: no prompt, rubric, reference, answer, member draft, judge reply or error text, only SHA-256 digests and lengths;
+  - refuses any string over 200 characters, or any credential or local-path shape, in every published value;
+  - builds the release in a staging folder and swaps it in whole.
+  - A dry run on the partial data took 3 s and wrote 39 MB for four benchmarks plus the live sample. 0 of 36,412 question snippets appeared in it. Tests in `tests/frontier/test_release.py` plant markers in every input field and check that none reach the release.
+- 07:00Z: trial RouterArena score of `auto` so far is 74.1 on 790 of 809 queries. Docker graded all 37 code answers in 78 s with no sandbox errors; the pinned image was pre-pulled.
+  - All 5 SuperGLUE cloze answers score 0. RouterArena's prompt says "Provide the correct letter choice in \boxed{X}, where X is the contetn of the correct option": it asks for a letter but scores against the option's text. Its board evaluator (`llm_evaluation/run.py`) compares with the option text as is; its older `eval_reasoning.py` maps the text to the letter, but the board does not use it. Our prompts are byte-identical to RouterArena's cached ones. Gemini 2.0 Flash's cached answers give the text (`\boxed{LEDs}`), while ours give the letter.
+  - So the port is faithful and these 5 points (0.6% of accuracy) are lost to an ambiguous instruction. Worth a note in the release, not a change.
+- **07:39Z: main pass done.** All 6,483 answers of the last pass were in, 21,490 rows in all. Reconcile found 0 rows to redo. The retry pass redid the 21 answers that lost a call to GLM-5.3 Flash's server errors (18 trio Panels and 3 `auto` answers) in 2 minutes, with no failures, for $0.19 at list prices. It left 0 transient failures.
+  - The 52 failed and 46 partial answers left are all the models' own doing:
+    - GLM-5.3 Flash out of room at its 4,096 bound: 32 on GPQA, plus trio Panels that lost it as a member;
+    - GLM-5.3 out of room on 7 GPQA answers;
+    - Gemini safety blocks: 11 on HealthBench Professional across both Gemini models and the Panels, and 1 recitation block on MultiChallenge.
+- **07:45Z: 75 MultiChallenge judge replies ended with a bare "YES" or "NO".** That is exactly what the official prompt asks for ("Print your reasoning followed by your verdict, either YES or NO"), but the parser read only JSON or "Verdict: X".
+  - Under the pre-registered rule they were re-sent as unusable. The parser now also reads a last line that is only YES or NO after some reasoning (`_bare_verdict`, with tests); a reply of just the word is still refused.
+  - Re-grading the grader check with the new parser: o1-preview 35.63 → 36.44 (official 35.73), Mixtral 13.52 → 14.02 (official 11.08), Llama 29.50 unchanged (official 23.19), physicians 46.77 unchanged (official 43.7). The offsets are still 0 to +6.
+- **A trap in re-running the grader check.** Its replies (2026-11-18 ~16:17Z) predate judge ids that bind the answer's digest, so a re-run with current code found none of them and scored everything 0. `checks.report` now also finds a reply by setup, item, request and judge settings; its answers are fixed published texts, so this is safe. With the old parser it reproduces the published check exactly (35.63 / 13.52 / 29.50 / 46.77).
+- **08:10Z: scored, complete.** Every setup on every benchmark has all its items answered and every judge request a usable reply (MultiChallenge: 2,925 replies for 2,926 answers, since one answer failed). The judge pass after the main run re-sent the 75 bare-verdict replies; one needed a third try. Judge spend for the whole project was $103.56 at Batch prices: main run $89.80, grader checks $13.29, live sample $0.41 and pilot $0.06.
+- **Results in one line each (details in README.md):**
+  - `auto:quality` is first, or within 3.4 points of first, on all four benchmarks. It sends facts and science to Gemini 4 Argon and writing, role-play and reasoning to `panel:panda-quality`.
+  - Panels beat their members only on HealthBench Professional (`panel:panda` 55.7 against its members' 49.0 and 38.3). On SimpleQA Verified, GPQA Diamond and MultiChallenge every Panel is below Gemini 3.8 Flash alone.
+  - DeepSeek V4.1 Flash and GLM-5.3 score far below their published maximum-effort rows (GPQA: 79.3 against 93.2, and 72.2 against 90.9). Gemini 4 Argon is within 1.5–5.2 points of its rows.
+  - RouterArena `sub_10`: `auto` 74.3% at $0.20 per 1,000 queries (Arena 73.26). Azure Model Router scores 75.8% on the same queries. At Panda's price, with at least 1¢ per answer, `auto` costs $10 per 1,000.
+- **Release (08:15Z):** `releases/frontier-2026-11/` is 42 MB, and `check-release` passes. A scan of 46,408 40-character snippets of the questions and references found only RouterArena's public query ids (by design) and no other dataset text.
+- **What it cost.**
+  - Model calls: $122.85 at list prices, every row written (redone rows included), or $122.04 for the final rows.
+  - Judge: $103.56.
+  - Live sample: $2.14 at Panda's prices.
+  - Total: about $229 for about 21,500 answers on five benchmarks, 33,800 judge replies, the grader checks and the live check.
