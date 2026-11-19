@@ -11,5 +11,5 @@ license = {text = "MIT"}
 dependencies = ["anthropic>=0.75,<1", "openai>=1.109,<3", "pyarrow>=17,<24"]
 
 [tool.setuptools]
-packages = ["panda_bench"]
+packages = ["panda_bench", "panda_bench.frontier", "panda_bench.frontier.benchmarks"]
 script-files = ["bin/panda-bench"]
